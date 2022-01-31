@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* ===================== 
+======= VARIABLES ======
+======================== */
+
+:root {
+    --backgroundColor1: #1F2023;
+    --backgroundColor2: #27282D; /*TAMBIEN USADO EN NAVBAR*/
+    --backgroundColor3: #19191B;
+    --colorFont:#FFFFFF;
+    --activeColorFont:#2FD159; /*TAMBIEN USADO EN EL TITULO DE LAS SECCIONES*/
+    --buttonColor:#2FD159;
+    --whatsappColor:#2FD159;
+    
+    --mainFont: 'Montserrat', sans-serif;
+    --fontWeight: 800;
+    --titleSizeD: 64px;
+    --titleSizeM: 30px;
+    --sectionTitleSizeD: 48px;
+    --sectionTitleSizeM: 26px;
+    --textSizeD:25px;
+    --textSizeM:16px;
+    --btnTextSizeD:18px;
+    --btnTextSizeM:14px;
+    --navTextSizeD:20px;
+    --navTextSizeM:22px;
+    --navFontWeight:600;
+}
+
+
+/* ==================== 
+======= GLOBALS ======
+=======================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--mainFont);
+    text-decoration: none;
+}
+
+html {
+    font-size: 10px;
+}
+
+
+
