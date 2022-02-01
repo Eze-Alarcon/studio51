@@ -41,7 +41,7 @@
     text-decoration: none;
 }
 
-body {
+.body-home {
     background: linear-gradient(180deg, rgba(31,32,35,1) 40%, rgba(23,23,24,1) 0.1%, rgba(23,23,24,1) 40%, rgba(31,32,35,1) 0.1%, rgba(31,32,35,1) 80%, rgba(23,23,24,1) 0.1%, rgba(23,23,24,1) 100%, rgba(31,32,35,1) 0.1%, rgba(31,32,35,1) 100%);
 }
 
@@ -268,18 +268,63 @@ body {
     margin: 0;
 }
 
-.home-portfolio {
-    padding-top: 38px;
-}
-.home-portfolio h1 {
-    padding-bottom: 22px;
-}
+
 
 
 
 /* ============================== 
 ========= HOME PORTFOLIO ========
 ================================*/
+
+.home-portfolio {
+    padding: 20px;
+    padding-top: 38px;
+    display: flex;
+    flex-direction: column;
+}
+.home-portfolio h1 {
+    padding-bottom: 22px;  
+}
+
+.carousel-item {
+    width: 300px;
+    height: 370px;
+}
+.carousel-item img {
+    width: 300px;
+    height: 370px;
+}
+
+.carousel-indicators {
+    bottom:-150px !important;
+}
+
+.epigrafe-portafolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.portafolio-btn {
+    color: #000000;
+    box-shadow: 4px 4px 4px rgba(13, 13, 13, 0.6);
+    border-radius: 10px;
+    background-color: var(--buttonColor);
+    border: none;
+    font-weight: 600;
+    font-size: var(--btnTextSizeM);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 35px;
+    margin: 34px;
+}
+
+.portafolio-btn-link {
+    text-decoration: none;
+    color: #000000;
+}
 
 
 
@@ -447,7 +492,7 @@ body {
         display: flex;
         flex-direction: column;
         padding-top: 80px;
-        padding-bottom: 117px;
+        padding-bottom: 234px;
     }
 
 
@@ -496,6 +541,134 @@ body {
 
     .img-container {
         background-size: 315px 230px;
+    }
+
+
+    /* =============================== 
+    ========= HOME PORTAFOLIO ========
+    ================================*/
+    
+    .home-portfolio {
+        padding: 20px;
+        padding-top: 38px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .home-portfolio h1 {
+        padding-bottom: 22px;  
+    }
+
+
+    .epigrafe-portafolio {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        width: 1001px;
+    }
+
+    .portafolio-btn {
+        color: #000000;
+        box-shadow: 4px 4px 4px rgba(13, 13, 13, 0.6);
+        border-radius: 10px;
+        background-color: var(--buttonColor);
+        border: none;
+        font-weight: 600;
+        font-size: var(--btnTextSizeM);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 10px 35px;
+        margin: 0;
+        width: 230px;
+    }
+
+    .portafolio-btn-link {
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .portafolioText {
+        color: var(--colorFont);
+        font-size: var(--textSizeD);
+        text-align:start;
+        width: 748px;
+    }
+
+    .section-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: min-content;
+        gap: 25px;
+        width: 1001px;
+        height: fit-content;
+
+    }
+
+    .grid-portafolio-home {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, .8fr) 1fr;  
+        grid-column-gap: 23px;
+        grid-row-gap: 16px; 
+        width: 1001px;
+        justify-content: center;
+        
+    }
+
+    .port-img1 {
+        grid-area: 1 / 1 / 3 / 3;
+    }
+    .port-img2 {
+        grid-area: 1 / 3 / 2 / 4;
+    }
+    .port-img3 {
+        grid-area: 1 / 4 / 3 / 5;
+    }
+    .port-img4 {
+        grid-area: 2 / 3 / 3 / 4;
+    }
+    .port-img5 {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+    .port-img6 {
+        grid-area: 3 / 2 / 4 / 4;
+    }
+    .port-img7 {
+        grid-area: 3 / 4 / 4 / 5;
+    }
+
+    .port-img1 img {
+        width: 100%;
+        height: 100%;
+    }
+    .port-img2 img {
+        width: 100%;
+        height: 100%;
+    }
+    .port-img3 img {
+        width: 100%;
+        height: 100%;
+    }
+    .port-img4 img {
+        width: 100%;
+        height: 100%;
+    }
+    .port-img5 img {
+        width: 100%;
+        height: 100%;
+    }
+    .port-img6 img {
+        width: 100%;
+        height: 100%;
+    }
+    .port-img7 img {
+        width: 100%;
+        height: 100%;
     }
    
 }
