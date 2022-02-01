@@ -7,6 +7,7 @@
     --backgroundColor1: #1F2023;
     --backgroundColor2: #27282D; /*TAMBIEN USADO EN NAVBAR*/
     --backgroundColor3: #19191B;
+    --backgroundColor4: #171718;
     --colorFont:#FFFFFF;
     --activeColorFont:#2FD159; /*TAMBIEN USADO EN EL TITULO DE LAS SECCIONES*/
     --buttonColor:#2FD159;
@@ -40,6 +41,9 @@
     text-decoration: none;
 }
 
+body {
+    background: linear-gradient(180deg, rgba(31,32,35,1) 40%, rgba(23,23,24,1) 0.1%, rgba(23,23,24,1) 40%, rgba(31,32,35,1) 0.1%, rgba(31,32,35,1) 80%, rgba(23,23,24,1) 0.1%, rgba(23,23,24,1) 100%, rgba(31,32,35,1) 0.1%, rgba(31,32,35,1) 100%);
+}
 
 /* ======================================================================================================================================= 
 ======================================================         MOBILE FIRST          =====================================================
@@ -102,6 +106,7 @@
 .main-home {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 95vh;
     background: url(../../images/background/backgroundMobile.jpg);
     background-repeat: no-repeat;
@@ -114,7 +119,7 @@
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 115px;
+    
 }
 
 .main-title {
@@ -156,6 +161,125 @@
 }
 
 
+/* ============================== 
+========= HOME SERVICES ========
+================================*/
+
+.home-services {
+    background-color: var(--backgroundColor1);
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 117px;
+}
+
+
+.home-portfolio {
+    background-color: var(--backgroundColor4);
+    display: flex;
+    flex-direction: column;
+}
+
+.serv-text {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 27px;
+    
+}
+
+.sectionTitle {
+    color: var(--activeColorFont);
+    font-size: var(--sectionTitleSizeM);
+}
+
+.sectionText {
+    color: var(--colorFont);
+    font-size: var(--textSizeM);
+    width: 280px;
+    align-self: center;
+    justify-self: center;
+    text-align: center;
+    
+}
+
+.section-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    align-items: center;
+    
+}
+
+.img-container {
+    width: 280px;
+    min-height: 200px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    font-size: var(--textSizeM);
+    font-weight: 600;
+}
+
+.img1 {
+    background-image: url(../../images/products/servicios/img1.jpg);
+    background-size: 280px 200px;
+    background-repeat: no-repeat;
+}
+.img2 {
+    background-image: url(../../images/products/servicios/img2.jpg);
+    background-size: 280px 200px;
+}
+.img3 {
+    background-image: url(../../images/products/servicios/img3.jpg);
+    background-size: 280px 200px;
+}
+.img4 {
+    background-image: url(../../images/products/servicios/img4.jpg);
+    background-size: 280px 200px;
+}
+.img5 {
+    background-image: url(../../images/products/servicios/img5.jpg);
+    background-size: 280px 200px;
+}
+.img6 {
+    background-image: url(../../images/products/servicios/img6.jpg);
+    background-size: 280px 200px;
+}
+
+
+.img-text-container {
+    background: rgba(0, 0, 0, 0.75);
+    color: var(--colorFont);
+    width: 234px;
+    margin-bottom: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 7px 0;
+    text-decoration: none;
+}
+
+.img-text {
+    margin: 0;
+}
+
+.home-portfolio {
+    padding-top: 38px;
+}
+.home-portfolio h1 {
+    padding-bottom: 22px;
+}
+
+
+
+/* ============================== 
+========= HOME PORTFOLIO ========
+================================*/
 
 
 
@@ -280,7 +404,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        margin-top: 180px;
+        
     }
 
     .main-title {
@@ -312,5 +436,66 @@
         padding: 15px 40px;
     }
 
+
+    
+    /* ============================== 
+    ========= HOME SERVICES ========
+    ================================*/
+
+    .home-services {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        padding-bottom: 117px;
+    }
+
+
+    .home-portfolio {
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .serv-text {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-bottom: 27px;
+        
+    }
+
+    .sectionTitle {
+        color: var(--activeColorFont);
+        font-size: var(--sectionTitleSizeD);
+    }
+
+    .sectionText {
+        color: var(--colorFont);
+        font-size: var(--textSizeD);
+        width: 736px;
+        align-self: center;
+        justify-self: center;
+        text-align: center;
+        
+    }
+
+    .section-flex {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 29px;
+        align-items: center;
+        justify-content: center;
+        flex-basis: 33.333333%;
+        margin:0 219px;
+        
+    }
+
+    .img-container {
+        background-size: 315px 230px;
+    }
    
 }
