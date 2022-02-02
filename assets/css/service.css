@@ -7,6 +7,7 @@
     --backgroundColor1: #1F2023;
     --backgroundColor2: #27282D; /*TAMBIEN USADO EN NAVBAR*/
     --backgroundColor3: #19191B;
+    --backgroundColor4: #171718;
     --colorFont:#FFFFFF;
     --activeColorFont:#2FD159; /*TAMBIEN USADO EN EL TITULO DE LAS SECCIONES*/
     --buttonColor:#2FD159;
@@ -14,7 +15,7 @@
     
     --mainFont: 'Montserrat', sans-serif;
     --fontWeight: 800;
-    --titleSizeD: 64px;
+    /* --titleSizeD: 64px;
     --titleSizeM: 30px;
     --sectionTitleSizeD: 48px;
     --sectionTitleSizeM: 26px;
@@ -24,6 +25,13 @@
     --btnTextSizeM:14px;
     --navTextSizeD:20px;
     --navTextSizeM:22px;
+    --navFontWeight:600; */
+
+    --sectionTitleSize: 26px;
+    --fontSizeL: 28px; 
+    --fontSizeM: 18px;
+    --fontSizeS: 15px;
+    --btnTextSizeM:14px;
     --navFontWeight:600;
 }
 
@@ -40,9 +48,118 @@
     text-decoration: none;
 }
 
-html {
-    font-size: 10px;
+
+body {
+    width: 100%;
+    height: 100%;
+    /* No creo poder usar esto debido a las diferentes proporciones de las cards */
+    /* background-image:  linear-gradient(#27282D 825px, #171718 825px, #171718 1040px, #27282D 1040px); 
+    background-size: 100% 1040px;
+    background-repeat: repeat-y; */
 }
 
+
+/* ==================== 
+======= Main ======
+=======================*/
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #171718;
+}
+
+
+main .title {
+    color: var(--activeColorFont);
+    font-size: var(--sectionTitleSize);
+    font-weight: var(--navFontWeight);
+    font-style: normal;
+    line-height: 32px;
+}
+
+/* ==================== 
+======= card ======
+=======================*/
+
+main .card {
+    height: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    background-color: var(--backgroundColor2);
+    padding: 46px 0 85px;
+    margin-bottom: 130px;
+}
+
+.card .card--content {
+    height: 100%;
+    width: 280px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card--content .card--text {
+    margin-bottom: 20px;
+    height: 300px;
+    width: 100%;
+    color: #FFF;
+    background-color: var(--backgroundColor3);
+    padding: 25px 0
+}
+
+.card--content h2 {
+    font-size: var(--fontSizeM);
+    text-align: center;
+    line-height: 22px;
+    font-weight: var(--navFontWeight);
+    margin: 0 20px;
+}
+
+.card--content ul {
+    margin-top: 10px;
+}
+
+.card--content li {
+    font-size: var(--fontSizeS);
+    font-weight: 500;
+    text-indent: -15px;
+    list-style: none;
+}
+
+.card--content li:before {
+    /* text-indent: 15px; */
+    content: "- ";
+}
+
+.card--content .card--slider {
+    height: 300px;
+    width: 100%;
+    max-width: 300px;
+    background-color: darkgrey;
+}
+
+.card--content .card--button {
+    background-color: var(--buttonColor);
+    width: 50%;
+    max-width: 150px;
+    height: 36px;
+    margin-top: 23px;
+    font-size: 14px;
+    font-weight: var(--navFontWeight);
+    font-style: normal;
+    border: none;
+    text-align: center;
+    border-radius: 10px;
+}
 
 
