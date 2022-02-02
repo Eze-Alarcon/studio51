@@ -41,6 +41,15 @@
     text-decoration: none;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    margin-top: auto;
+}
 
 .body-home {
     background: linear-gradient(180deg, rgba(31,32,35,1) 30%, rgba(23,23,24,1) 0.1%, rgba(23,23,24,1) 30%, rgba(31,32,35,1) 0.1%, rgba(31,32,35,1) 65%, rgba(23,23,24,1) 0.1%, rgba(23,23,24,1) 100%, rgba(31,32,35,1) 0.1%, rgba(31,32,35,1) 100%);
@@ -492,6 +501,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    min-height:100vh;
 }
 
 
@@ -536,6 +546,78 @@
 .img-about {
     width: 280px;
     height: 308px;
+}
+
+
+
+
+/* **************************************************
+*********************** CONTACT *********************
+*****************************************************/
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 67px;
+    margin-top: 39px;
+    gap: 12px;
+    min-height: 197px;
+}
+
+.mapa-graf {
+    padding: 0 21px;
+    width: 100%;
+    height: 100%;
+}
+
+.linea-mapa {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    padding: 0 21px;
+    gap: 10px;
+}
+
+.contacto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.line {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start; 
+    justify-self: flex-start;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    padding-bottom: 21px;
+    text-align: center;
+}
+
+.line i {
+    align-self: center;
+    justify-self: center;
+    color: var(--colorFont);
+    margin-right: 12px;
+    font-size: 22px;
+}
+
+.fa-map-marker-alt {
+    color: var(--colorFont);
+    font-size: 22px;
+}
+.address {
+    color: var(--colorFont);
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0;
 }
 
 
@@ -1083,5 +1165,114 @@
         left: 10%;
         right: 90%;
     }
+
+
+
+
+
+    /* **************************************************
+    *********************** CONTACT *********************
+    *****************************************************/
+
+    .contact-main {
+        background-color: var(--backgroundColor1);
+    }
+
+    .desc-contact {
+        width:80%;
+    }
+
+    .contacto-container {
+        background-color: var(--backgroundColor2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 52px;
+        box-shadow: 2px 4px 10px #0D0D0D;
+        margin-bottom: 117px;
+    }
+
+    .lineas-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between; 
+        width: 60%;
+    }
+
+    .line3 {
+        order: 4;
+        margin-right: 25px;
+    }
+
+    .line4 {
+        order: 3;
+    }
+
+    .mapa {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; 
+        margin-bottom: 67px;
+        margin-top: 39px;
+        gap: 12px;
+        min-height: 197px;
+        height: 350px;
+    }
+
+    .mapa-graf {
+        padding: 0 21px;
+        width: 100%;
+        height: 250px;
+    }
+
+    .mapa div {
+        width: 85%;
+        height: 250px;
+    }
+
+    .linea-mapa {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center; 
+        padding: 0 21px;
+        gap: 10px;
+    }
+
+    .line {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start; 
+        margin-left: 37px;
+        font-size: 20px;
+        font-weight: 600;
+        text-decoration: none;
+        padding-bottom: 21px;
+        text-align: center;
+    }
+
+    .line i {
+        align-self: center;
+        justify-self: center;
+        color: var(--colorFont);
+        margin-right: 12px;
+        font-size: 22px;
+    }
+
+    .fa-map-marker-alt {
+        color: var(--colorFont);
+        font-size: 22px;
+    }
+    .address {
+        color: var(--colorFont);
+        font-size: 12px;
+        font-weight: 600;
+        margin: 0;
+    }
+
    
 }
