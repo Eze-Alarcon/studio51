@@ -41,6 +41,7 @@
     text-decoration: none;
 }
 
+
 .body-home {
     background: linear-gradient(180deg, rgba(31,32,35,1) 40%, rgba(23,23,24,1) 0.1%, rgba(23,23,24,1) 40%, rgba(31,32,35,1) 0.1%, rgba(31,32,35,1) 80%, rgba(23,23,24,1) 0.1%, rgba(23,23,24,1) 100%, rgba(31,32,35,1) 0.1%, rgba(31,32,35,1) 100%);
 }
@@ -270,8 +271,6 @@
 
 
 
-
-
 /* ============================== 
 ========= HOME PORTFOLIO ========
 ================================*/
@@ -325,6 +324,161 @@
     text-decoration: none;
     color: #000000;
 }
+
+
+
+/* ============================== 
+=========== HOME MARCAS =========
+================================*/
+
+.home-marcas {
+    background-color: var(--backgroundColor1);
+    padding-bottom: 80px;
+
+}
+
+.titulo-marcas {
+    font-size: 24px;
+    color: var(--colorFont);
+    font-weight: 600;
+    text-align: center;
+    padding: 90px 20px 20px 20px;
+    margin: 0 21px;
+    margin-top: 60px;
+    
+
+}
+
+.carousel-list-container {
+    background-color: var(--backgroundColor4);
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    overflow-x: hidden;
+}
+
+.carousel-list {
+    display: flex;
+    padding: 0;
+    align-items: center;
+    gap: 18px;
+    margin: 0;
+    width: 100%;
+    z-index: 0;
+    
+}
+.carousel-list {
+    list-style: none;
+    animation: slideOutRight 13s infinite alternate ease-in-out;
+}
+
+.carItem {
+    width: 200px;
+    height: 139px;
+    
+}
+
+
+
+@keyframes slideOutRight {
+  0% {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+  }
+  10% {
+  -webkit-transform: translateX(0%);
+  transform: translateX(0%);
+  }
+  15% {
+  -webkit-transform: translateX(-45%);
+  transform: translateX(-45%);
+  }
+  25% {
+  -webkit-transform: translateX(-45%);
+  transform: translateX(-45%);
+  }
+  30% {
+  -webkit-transform: translateX(-90%);
+  transform: translateX(-90%);
+  }
+  40% {
+  -webkit-transform: translateX(-90%);
+  transform: translateX(-90%);
+  }
+  45% {
+  -webkit-transform: translateX(-135%);
+  transform: translateX(-135%);
+  }
+  55% {
+  -webkit-transform: translateX(-135%);
+  transform: translateX(-135%);
+  }
+  60% {
+  -webkit-transform: translateX(-180%);
+  transform: translateX(-180%);
+  }
+  70% {
+  -webkit-transform: translateX(-180%);
+  transform: translateX(-180%);
+  }
+  75% {
+  -webkit-transform: translateX(-225%);
+  transform: translateX(-225%);
+  }
+  85% {
+  -webkit-transform: translateX(-225%);
+  transform: translateX(-225%);
+  }
+  90% {
+  -webkit-transform: translateX(-270%);
+  transform: translateX(-270%);
+  }
+  100% {
+  -webkit-transform: translateX(-270%);
+  transform: translateX(-270%);
+  }
+
+} 
+
+
+
+
+
+/* ============================== 
+========= HOME FOOTER ========
+================================*/
+
+.footer-home {
+    background-color: var(--backgroundColor2);
+    box-shadow: 2px -4px 16px #0D0D0D;
+
+}
+
+.footer-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 14px 21px;
+}
+
+.copyright {
+    margin: 0;
+    color: #C4C4C4;
+    font-size: var(--textSizeM);
+    font-weight: 500;
+}
+
+.footer-brand {
+    width: 132px;
+    height: 45px;
+    
+}
+
+.footer-logo {
+    width: 132px;
+    height: 45px;
+}
+
 
 
 
@@ -669,6 +823,126 @@
     .port-img7 img {
         width: 100%;
         height: 100%;
+    }
+
+
+    
+    /* ============================== 
+    =========== HOME MARCAS =========
+    ================================*/
+
+    .home-marcas {
+        background-color: transparent;
+        padding-bottom: 80px;
+
+    }
+
+    .titulo-marcas {
+        font-size: 24px;
+        color: var(--colorFont);
+        font-weight: 600;
+        text-align: center;
+        padding: 90px 20px 20px 20px;
+        margin: 0 21px;
+        margin-top: 60px;
+        
+
+    }
+
+    .carousel-list-container {
+        background-color: var(--backgroundColor1);
+        padding: 35px 0;
+        display: flex;
+        align-items: center;
+        overflow-x: hidden;
+    }
+
+    .carousel-list {
+        display: flex;
+        padding: 0;
+        align-items: center;
+        gap: 18px;
+        margin: 0;
+        width: 100%;        
+    }
+    .carousel-list {
+        list-style: none;
+        animation: slideOutRight 20s infinite ease-in-out;
+    }
+
+    .carItem {
+        width: 300px;
+        height: 199px;
+        
+    }
+
+
+
+    @keyframes slideOutRight {
+        0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        }
+        30% {
+        -webkit-transform: translateX(-0%);
+        transform: translateX(-0%);
+        }
+        
+        35% {
+        -webkit-transform: translateX(-25%);
+        transform: translateX(-25%);
+        }
+        50% {
+        -webkit-transform: translateX(-25%);
+        transform: translateX(-25%);
+        }
+        85% {
+        -webkit-transform: translateX(-25%);
+        transform: translateX(-25%);
+        }
+        100% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        }
+
+    } 
+
+
+    
+    /* ============================== 
+    ========= HOME FOOTER ========
+    ================================*/
+
+    .footer-home {
+        background-color: var(--backgroundColor2);
+        box-shadow: 2px -4px 16px #0D0D0D;
+
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .copyright {
+        width: 60%;
+        margin: 0;
+        color: #C4C4C4;
+        font-size: var(--textSizeM);
+        font-weight: 500;
+       
+        
+    }
+
+    .footer-brand {
+        width: 132px;
+        height: 45px;
+    }
+
+    .footer-logo {
+        width: 132px;
+        height: 45px;
     }
    
 }
