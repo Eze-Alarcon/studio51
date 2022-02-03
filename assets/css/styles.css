@@ -1,33 +1,32 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 /* ===================== 
 ======= VARIABLES ======
 ======================== */
 
 :root {
-    --backgroundColor1: #1F2023;
-    --backgroundColor2: #27282D; /*TAMBIEN USADO EN NAVBAR*/
-    --backgroundColor3: #19191B;
+    --backgroundColor1: #1f2023;
+    --backgroundColor2: #27282d; /*TAMBIEN USADO EN NAVBAR*/
+    --backgroundColor3: #19191b;
     --backgroundColor4: #171718;
-    --colorFont:#FFFFFF;
-    --activeColorFont:#2FD159; /*TAMBIEN USADO EN EL TITULO DE LAS SECCIONES*/
-    --buttonColor:#2FD159;
-    --whatsappColor:#2FD159;
-    
-    --mainFont: 'Montserrat', sans-serif;
+    --colorFont: #ffffff;
+    --activeColorFont: #2fd159; /*TAMBIEN USADO EN EL TITULO DE LAS SECCIONES*/
+    --buttonColor: #2fd159;
+    --whatsappColor: #2fd159;
+
+    --mainFont: "Montserrat", sans-serif;
     --fontWeight: 800;
     --titleSizeD: 64px;
     --titleSizeM: 30px;
     --sectionTitleSizeD: 48px;
     --sectionTitleSizeM: 26px;
-    --textSizeD:25px;
-    --textSizeM:16px;
-    --btnTextSizeD:18px;
-    --btnTextSizeM:14px;
-    --navTextSizeD:20px;
-    --navTextSizeM:22px;
-    --navFontWeight:600;
+    --textSizeD: 25px;
+    --textSizeM: 16px;
+    --btnTextSizeD: 18px;
+    --btnTextSizeM: 14px;
+    --navTextSizeD: 20px;
+    --navTextSizeM: 22px;
+    --navFontWeight: 600;
 }
-
 
 /* ==================== 
 ======= GLOBALS ======
@@ -52,7 +51,18 @@ footer {
 }
 
 .body-home {
-    background: linear-gradient(180deg, rgba(31,32,35,1) 30%, rgba(23,23,24,1) 0.1%, rgba(23,23,24,1) 30%, rgba(31,32,35,1) 0.1%, rgba(31,32,35,1) 65%, rgba(23,23,24,1) 0.1%, rgba(23,23,24,1) 100%, rgba(31,32,35,1) 0.1%, rgba(31,32,35,1) 100%);
+    background: linear-gradient(
+        180deg,
+        rgba(31, 32, 35, 1) 30%,
+        rgba(23, 23, 24, 1) 0.1%,
+        rgba(23, 23, 24, 1) 30%,
+        rgba(31, 32, 35, 1) 0.1%,
+        rgba(31, 32, 35, 1) 65%,
+        rgba(23, 23, 24, 1) 0.1%,
+        rgba(23, 23, 24, 1) 100%,
+        rgba(31, 32, 35, 1) 0.1%,
+        rgba(31, 32, 35, 1) 100%
+    );
 }
 
 /* ======================================================================================================================================= 
@@ -69,7 +79,7 @@ footer {
 
 .navbar {
     background-color: var(--backgroundColor2);
-    box-shadow: 2px 4px 10px #0D0D0D;
+    box-shadow: 2px 4px 10px #0d0d0d;
 }
 
 .navInvert {
@@ -78,7 +88,6 @@ footer {
 
 .navbar-toggler {
     border: none !important;
-    
 }
 
 .navbar-toggler-icon {
@@ -129,7 +138,6 @@ footer {
     flex-direction: column;
     align-items: center;
     flex-wrap: wrap;
-    
 }
 
 .main-title {
@@ -165,11 +173,11 @@ footer {
     text-decoration: none;
     color: #000000;
 }
-.main-btn-link:hover, .main-btn-link:focus {
+.main-btn-link:hover,
+.main-btn-link:focus {
     text-decoration: none;
     color: #000000;
 }
-
 
 /* ============================== 
 ========= HOME SERVICES ========
@@ -183,7 +191,6 @@ footer {
     padding-bottom: 117px;
 }
 
-
 .home-portfolio {
     background-color: var(--backgroundColor4);
     display: flex;
@@ -191,13 +198,12 @@ footer {
 }
 
 .serv-text {
-    display:flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     margin-bottom: 27px;
-    
 }
 
 .sectionTitle {
@@ -212,7 +218,6 @@ footer {
     align-self: center;
     justify-self: center;
     text-align: center;
-    
 }
 
 .section-flex {
@@ -220,7 +225,6 @@ footer {
     flex-direction: column;
     gap: 36px;
     align-items: center;
-    
 }
 
 .img-container {
@@ -261,7 +265,6 @@ footer {
     background-size: 280px 200px;
 }
 
-
 .img-text-container {
     background: rgba(0, 0, 0, 0.75);
     color: var(--colorFont);
@@ -278,8 +281,6 @@ footer {
     margin: 0;
 }
 
-
-
 /* ============================== 
 ========= HOME PORTFOLIO ========
 ================================*/
@@ -291,7 +292,7 @@ footer {
     flex-direction: column;
 }
 .home-portfolio h1 {
-    padding-bottom: 22px;  
+    padding-bottom: 22px;
 }
 
 .carousel-item {
@@ -304,7 +305,7 @@ footer {
 }
 
 .carousel-indicators {
-    bottom:-150px !important;
+    bottom: -150px !important;
 }
 
 .epigrafe-portafolio {
@@ -333,8 +334,9 @@ footer {
     text-decoration: none;
     color: #000000;
 }
-
-
+.portafolio-btn-link:hover, .portafolio-btn-link:focus {
+    color: #000000;
+}
 
 /* ============================== 
 =========== HOME MARCAS =========
@@ -343,7 +345,6 @@ footer {
 .home-marcas {
     background-color: var(--backgroundColor1);
     padding-bottom: 80px;
-
 }
 
 .titulo-marcas {
@@ -354,8 +355,6 @@ footer {
     padding: 90px 20px 20px 20px;
     margin: 0 21px;
     margin-top: 60px;
-    
-
 }
 
 .carousel-list-container {
@@ -374,7 +373,6 @@ footer {
     margin: 0;
     width: 100%;
     z-index: 0;
-    
 }
 .carousel-list {
     list-style: none;
@@ -384,74 +382,66 @@ footer {
 .carItem {
     width: 200px;
     height: 139px;
-    
 }
 
-
-
 @keyframes slideOutRight {
-  0% {
-  -webkit-transform: translateX(0%);
-  transform: translateX(0%);
-  }
-  10% {
-  -webkit-transform: translateX(0%);
-  transform: translateX(0%);
-  }
-  15% {
-  -webkit-transform: translateX(-45%);
-  transform: translateX(-45%);
-  }
-  25% {
-  -webkit-transform: translateX(-45%);
-  transform: translateX(-45%);
-  }
-  30% {
-  -webkit-transform: translateX(-90%);
-  transform: translateX(-90%);
-  }
-  40% {
-  -webkit-transform: translateX(-90%);
-  transform: translateX(-90%);
-  }
-  45% {
-  -webkit-transform: translateX(-135%);
-  transform: translateX(-135%);
-  }
-  55% {
-  -webkit-transform: translateX(-135%);
-  transform: translateX(-135%);
-  }
-  60% {
-  -webkit-transform: translateX(-180%);
-  transform: translateX(-180%);
-  }
-  70% {
-  -webkit-transform: translateX(-180%);
-  transform: translateX(-180%);
-  }
-  75% {
-  -webkit-transform: translateX(-225%);
-  transform: translateX(-225%);
-  }
-  85% {
-  -webkit-transform: translateX(-225%);
-  transform: translateX(-225%);
-  }
-  90% {
-  -webkit-transform: translateX(-270%);
-  transform: translateX(-270%);
-  }
-  100% {
-  -webkit-transform: translateX(-270%);
-  transform: translateX(-270%);
-  }
-
-} 
-
-
-
-
+    0% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+    10% {
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+    15% {
+        -webkit-transform: translateX(-45%);
+        transform: translateX(-45%);
+    }
+    25% {
+        -webkit-transform: translateX(-45%);
+        transform: translateX(-45%);
+    }
+    30% {
+        -webkit-transform: translateX(-90%);
+        transform: translateX(-90%);
+    }
+    40% {
+        -webkit-transform: translateX(-90%);
+        transform: translateX(-90%);
+    }
+    45% {
+        -webkit-transform: translateX(-135%);
+        transform: translateX(-135%);
+    }
+    55% {
+        -webkit-transform: translateX(-135%);
+        transform: translateX(-135%);
+    }
+    60% {
+        -webkit-transform: translateX(-180%);
+        transform: translateX(-180%);
+    }
+    70% {
+        -webkit-transform: translateX(-180%);
+        transform: translateX(-180%);
+    }
+    75% {
+        -webkit-transform: translateX(-225%);
+        transform: translateX(-225%);
+    }
+    85% {
+        -webkit-transform: translateX(-225%);
+        transform: translateX(-225%);
+    }
+    90% {
+        -webkit-transform: translateX(-270%);
+        transform: translateX(-270%);
+    }
+    100% {
+        -webkit-transform: translateX(-270%);
+        transform: translateX(-270%);
+    }
+}
 
 /* ============================== 
 ========= HOME FOOTER ========
@@ -459,8 +449,7 @@ footer {
 
 .footer-home {
     background-color: var(--backgroundColor2);
-    box-shadow: 2px -4px 16px #0D0D0D;
-
+    box-shadow: 2px -4px 16px #0d0d0d;
 }
 
 .footer-container {
@@ -472,7 +461,7 @@ footer {
 
 .copyright {
     margin: 0;
-    color: #C4C4C4;
+    color: #c4c4c4;
     font-size: var(--textSizeM);
     font-weight: 500;
 }
@@ -480,16 +469,12 @@ footer {
 .footer-brand {
     width: 132px;
     height: 45px;
-    
 }
 
 .footer-logo {
     width: 132px;
     height: 45px;
 }
-
-
-
 
 /* **************************************************
 *********************** ABOUT US ********************
@@ -501,17 +486,16 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height:100vh;
+    min-height: 100vh;
+    overflow: hidden;
 }
-
-
 
 .ttltxt-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;  
-    margin-top: 51px;  
+    justify-content: center;
+    margin-top: 51px;
     margin-bottom: 23px;
 }
 
@@ -532,12 +516,12 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;  
+    justify-content: center;
 }
 
 .text-about {
     background-color: var(--backgroundColor3);
-    box-shadow: 4px 4px 10px #0D0D0D;
+    box-shadow: 4px 4px 10px #0d0d0d;
     color: var(--colorFont);
     padding: 16px 12px;
     margin: 23px 21px 81px 21px;
@@ -548,9 +532,6 @@ footer {
     height: 308px;
 }
 
-
-
-
 /* **************************************************
 *********************** CONTACT *********************
 *****************************************************/
@@ -559,7 +540,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     margin-bottom: 67px;
     margin-top: 39px;
     gap: 12px;
@@ -576,7 +557,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
     padding: 0 21px;
     gap: 10px;
 }
@@ -585,14 +566,14 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .line {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: flex-start; 
+    justify-content: flex-start;
     justify-self: flex-start;
     font-size: 14px;
     font-weight: 600;
@@ -620,22 +601,53 @@ footer {
     margin: 0;
 }
 
+/* **************************************************
+*********************** PORTAFOLIO ******************
+*****************************************************/
 
+.body-portafolio {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#portfolio-section {
+    background-color: var(--backgroundColor2);
+    margin-bottom: 0;
+    padding: 38px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 360px;
+}
+
+.titulo-categoria {
+    color: var(--colorFont);
+    font-size: var(--btnTextSizeD);
+    margin: 0 18px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+#btn-portfolio {
+    margin: 34px 15px;
+    align-self: center;
+}
+
+.imgCar {
+    width: 100%;
+}
 
 /* ======================================================================================================================================= 
 ======================================================         TABLET VIEW          ======================================================
 ========================================================================================================================================== */
-@media only screen and (min-width:560px) {
-
+@media only screen and (min-width: 560px) {
 }
-
 
 /* ======================================================================================================================================= 
 ========================================================         DESKTOP          ========================================================
 ========================================================================================================================================== */
-@media only screen and (min-width:992px) {
-
-
+@media only screen and (min-width: 992px) {
     /* ==================== 
     ======= NavBar ======
     =======================*/
@@ -651,13 +663,13 @@ footer {
 
     .navbar {
         padding: 0 !important;
-        box-shadow: 2px 4px 10px #0D0D0D;
+        box-shadow: 2px 4px 10px #0d0d0d;
     }
     .navbar-brand {
         align-self: center;
     }
-    
-    .navbar-nav  {
+
+    .navbar-nav {
         padding: 0;
         display: flex;
         align-items: center !important;
@@ -681,17 +693,15 @@ footer {
 
     .activeLink {
         border-bottom: 6px solid var(--activeColorFont);
-        
     }
     .activeLink > a {
         color: var(--activeColorFont) !important;
     }
     #navbarSupportedContent {
         height: 95px !important;
-        justify-content: flex-end  !important;
-        align-items:flex-end;
+        justify-content: flex-end !important;
+        align-items: flex-end;
         padding-right: 62px;
-        
     }
 
     .mobileDrop {
@@ -703,24 +713,23 @@ footer {
     }
 
     .dropdown-menu {
-        background-color: var(--backgroundColor1) !important;  
+        background-color: var(--backgroundColor1) !important;
     }
 
     .dropdown-menu li {
-        width:87%;
+        width: 87%;
         margin-left: 37px;
     }
     .dropdown-menu li a:hover {
-        background-color: #2FD159 ;
+        background-color: #2fd159;
     }
 
     .dropdown-item {
         color: var(--colorFont) !important;
         font-size: var(--navTextSizeD);
-        padding: 25px 37px 25px 0  !important;
-        border-bottom: 0.5px solid #C4C4C4 !important;
+        padding: 25px 37px 25px 0 !important;
+        border-bottom: 0.5px solid #c4c4c4 !important;
     }
-
 
     #lastDrop {
         border: none !important;
@@ -738,12 +747,10 @@ footer {
         background-size: 100% 100%;
     }
 
-    
     .main-container {
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        
     }
 
     .main-title {
@@ -775,8 +782,6 @@ footer {
         padding: 15px 40px;
     }
 
-
-    
     /* ============================== 
     ========= HOME SERVICES ========
     ================================*/
@@ -789,7 +794,6 @@ footer {
         padding-bottom: 234px;
     }
 
-
     .home-portfolio {
         background-color: transparent;
         display: flex;
@@ -797,13 +801,12 @@ footer {
     }
 
     .serv-text {
-        display:flex;
+        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         text-align: center;
         margin-bottom: 27px;
-        
     }
 
     .sectionTitle {
@@ -818,7 +821,6 @@ footer {
         align-self: center;
         justify-self: center;
         text-align: center;
-        
     }
 
     .section-flex {
@@ -829,25 +831,22 @@ footer {
         align-items: center;
         justify-content: center;
         flex-basis: 33.333333%;
-        margin:0 219px;
-        
+        margin: 0 219px;
     }
 
     .img-container {
         background-size: 315px 230px;
-        transition: opacity .5s;
+        transition: opacity 0.5s;
     }
-    .img-container:hover, .img-container:focus {
+    .img-container:hover,
+    .img-container:focus {
         opacity: 60%;
-
     }
-    
-
 
     /* =============================== 
     ========= HOME PORTAFOLIO ========
     ================================*/
-    
+
     .home-portfolio {
         padding: 20px;
         padding-top: 38px;
@@ -857,9 +856,8 @@ footer {
         align-items: center;
     }
     .home-portfolio h1 {
-        padding-bottom: 22px;  
+        padding-bottom: 22px;
     }
-
 
     .epigrafe-portafolio {
         display: flex;
@@ -893,7 +891,7 @@ footer {
     .portafolioText {
         color: var(--colorFont);
         font-size: var(--textSizeD);
-        text-align:start;
+        text-align: start;
         width: 748px;
     }
 
@@ -906,18 +904,16 @@ footer {
         gap: 25px;
         width: 1001px;
         height: fit-content;
-
     }
 
     .grid-portafolio-home {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, .8fr) 1fr;  
+        grid-template-rows: repeat(2, 0.8fr) 1fr;
         grid-column-gap: 23px;
-        grid-row-gap: 16px; 
+        grid-row-gap: 16px;
         width: 1001px;
         justify-content: center;
-        
     }
 
     .port-img1 {
@@ -971,8 +967,6 @@ footer {
         height: 100%;
     }
 
-
-    
     /* ============================== 
     =========== HOME MARCAS =========
     ================================*/
@@ -980,7 +974,6 @@ footer {
     .home-marcas {
         background-color: transparent;
         padding-bottom: 80px;
-
     }
 
     .titulo-marcas {
@@ -991,8 +984,6 @@ footer {
         padding: 90px 20px 20px 20px;
         margin: 0 21px;
         margin-top: 60px;
-        
-
     }
 
     .carousel-list-container {
@@ -1009,7 +1000,7 @@ footer {
         align-items: center;
         gap: 18px;
         margin: 0;
-        width: 100%;        
+        width: 100%;
     }
     .carousel-list {
         list-style: none;
@@ -1019,50 +1010,43 @@ footer {
     .carItem {
         width: 300px;
         height: 199px;
-        
     }
-
-
 
     @keyframes slideOutRight {
         0% {
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
+            -webkit-transform: translateX(0%);
+            transform: translateX(0%);
         }
         30% {
-        -webkit-transform: translateX(-0%);
-        transform: translateX(-0%);
+            -webkit-transform: translateX(-0%);
+            transform: translateX(-0%);
         }
-        
+
         35% {
-        -webkit-transform: translateX(-25%);
-        transform: translateX(-25%);
+            -webkit-transform: translateX(-25%);
+            transform: translateX(-25%);
         }
         50% {
-        -webkit-transform: translateX(-25%);
-        transform: translateX(-25%);
+            -webkit-transform: translateX(-25%);
+            transform: translateX(-25%);
         }
         85% {
-        -webkit-transform: translateX(-25%);
-        transform: translateX(-25%);
+            -webkit-transform: translateX(-25%);
+            transform: translateX(-25%);
         }
         100% {
-        -webkit-transform: translateX(0%);
-        transform: translateX(0%);
+            -webkit-transform: translateX(0%);
+            transform: translateX(0%);
         }
+    }
 
-    } 
-
-
-    
     /* ============================== 
     ========= HOME FOOTER ========
     ================================*/
 
     .footer-home {
         background-color: var(--backgroundColor2);
-        box-shadow: 2px -4px 16px #0D0D0D;
-
+        box-shadow: 2px -4px 16px #0d0d0d;
     }
 
     .footer-container {
@@ -1074,11 +1058,9 @@ footer {
     .copyright {
         width: 60%;
         margin: 0;
-        color: #C4C4C4;
+        color: #c4c4c4;
         font-size: var(--textSizeM);
         font-weight: 500;
-       
-        
     }
 
     .footer-brand {
@@ -1090,7 +1072,6 @@ footer {
         width: 132px;
         height: 45px;
     }
-
 
     /* **************************************************
     *********************** ABOUT US ********************
@@ -1104,14 +1085,12 @@ footer {
         justify-content: center;
     }
 
-
-
     .ttltxt-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;  
-        margin-top: 51px;  
+        justify-content: center;
+        margin-top: 51px;
         margin-bottom: 23px;
     }
 
@@ -1129,7 +1108,7 @@ footer {
         font-size: 24px;
     }
 
-    .text-about p{
+    .text-about p {
         text-align: justify;
         text-justify: inter-word;
         padding: 15px;
@@ -1140,15 +1119,15 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: flex-end; 
-        padding-right: 87px; 
+        justify-content: flex-end;
+        padding-right: 87px;
         width: 90%;
         margin-bottom: 160px;
     }
 
     .text-about {
         background-color: var(--backgroundColor3);
-        box-shadow: 4px 4px 10px #0D0D0D;
+        box-shadow: 4px 4px 10px #0d0d0d;
         color: var(--colorFont);
         padding: 57px 12px;
         margin: 78px 21px 72px 21px;
@@ -1166,10 +1145,6 @@ footer {
         right: 90%;
     }
 
-
-
-
-
     /* **************************************************
     *********************** CONTACT *********************
     *****************************************************/
@@ -1179,7 +1154,7 @@ footer {
     }
 
     .desc-contact {
-        width:80%;
+        width: 80%;
     }
 
     .contacto-container {
@@ -1189,7 +1164,7 @@ footer {
         align-items: center;
         justify-content: space-between;
         padding-top: 52px;
-        box-shadow: 2px 4px 10px #0D0D0D;
+        box-shadow: 2px 4px 10px #0d0d0d;
         margin-bottom: 117px;
     }
 
@@ -1197,7 +1172,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        justify-content: space-between; 
+        justify-content: space-between;
         width: 60%;
     }
 
@@ -1214,7 +1189,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
         margin-bottom: 67px;
         margin-top: 39px;
         gap: 12px;
@@ -1237,7 +1212,7 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: center; 
+        justify-content: center;
         padding: 0 21px;
         gap: 10px;
     }
@@ -1246,7 +1221,7 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: flex-start; 
+        justify-content: flex-start;
         margin-left: 37px;
         font-size: 20px;
         font-weight: 600;
@@ -1274,5 +1249,956 @@ footer {
         margin: 0;
     }
 
-   
+    /* *****************************************************
+    *********************** PORTAFOLIO *********************
+    ********************************************************/
+
+    .big-container-desktop {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden !important;
+        z-index: 1;
+        width: 100%;
+        padding: 0 10%;
+    }
+
+    .desktop-portfolio-container {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        overflow-x: hidden !important;
+        justify-content: flex-start;
+        margin-bottom: 50px;
+    }
+
+    /* -------------------------------------------------- CATEGORIA 1 ------------------------------------------------------------- */
+
+    .carousel-grid-container {
+        display: flex;
+        height: 500px;
+        position: relative;
+        justify-content: flex-start;
+        width: 143%;
+    }
+
+    .grid-container {
+        display: flex;
+        width: 100%;
+    }
+
+    .titulo-categoria-left {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 32px;
+        color: var(--colorFont);
+        margin-top: 35px;
+    }
+
+    .btn-grid-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 0px;
+        top: 103px;
+        width: 150px;
+        z-index: 2;
+        height: 484px;
+        background-color: rgba(13, 13, 13, 0.4);
+        transition: background-color 0.5s;
+    }
+
+    .btn-grid-right:hover {
+        cursor: pointer;
+        background-color: rgba(13, 13, 13, 0);
+    }
+
+    #btn-grid-right:hover + .carousel-grid-container {
+        animation: slideRight 5s forwards ease-in-out;
+    }
+
+    @keyframes slideRight {
+        0% {
+            -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+        }
+        100% {
+            -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+        }
+    }
+
+    .btn-grid-right i {
+        color: var(--activeColorFont);
+        font-size: 54px;
+        font-weight: 700;
+        text-shadow: 0px 0px 3px #2fd159;
+        text-shadow: -4px 0 var(--colorFont), 0 4px var(--colorFont),
+            4px 0 var(--colorFont), 0 -4px var(--colorFont);
+        text-shadow: 2px 4px 10px #0d0d0d;
+    }
+
+    .carousel-grid-cat1 {
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        grid-template-rows: 1fr 0.6fr 1.4fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        gap: 16px;
+        width: 230%;
+        padding-left: 0;
+    }
+
+    .gridItem-1-cat1 {
+        grid-area: 1 / 1 / 3 / 3;
+        background-image: url("../../images/subportfolio/grafico/IMG_20220107_171820083.jpg");
+        background-size: cover;
+    }
+    .gridItem-2-cat1 {
+        grid-area: 1 / 3 / 2 / 4;
+        background-image: url("../../images/subportfolio/grafico/tripticos .jpg");
+        background-size: cover;
+    }
+    .gridItem-3-cat1 {
+        grid-area: 2 / 3 / 3 / 4;
+        background-image: url("../../images/subportfolio/grafico/2.jpg");
+        background-size: cover;
+    }
+    .gridItem-4-cat1 {
+        grid-area: 1 / 4 / 2 / 6;
+        background-image: url("../../images/subportfolio/grafico/IMG_20210609_192929214.jpg");
+        background-size: cover;
+        background-position-y: bottom -50px;
+    }
+    .gridItem-5-cat1 {
+        grid-area: 3 / 1 / 4 / 2;
+        background-image: url("../../images/subportfolio/grafico/1.jpg");
+        background-size: cover;
+    }
+    .gridItem-6-cat1 {
+        grid-area: 3 / 2 / 4 / 4;
+        background-image: url("../../images/subportfolio/grafico/servi mandados.jpg");
+        background-size: cover;
+    }
+    .gridItem-7-cat1 {
+        grid-area: 2 / 4 / 4 / 5;
+        background-image: url("../../images/subportfolio/grafico/MENU MADELEINE.jpg");
+        background-size: cover;
+    }
+    .gridItem-8-cat1 {
+        grid-area: 2 / 5 / 3 / 6;
+        background-image: url("../../images/subportfolio/grafico/PAQUETE.jpg");
+        background-size: cover;
+    }
+    .gridItem-9-cat1 {
+        grid-area: 3 / 5 / 4 / 6;
+        background-image: url("../../images/subportfolio/grafico/tab1.jpg");
+        background-size: cover;
+    }
+    .gridItem-10-cat1 {
+        grid-area: 2 / 6 / 3 / 8;
+        background-image: url("../../images/subportfolio/grafico/volantes cesar lozano modificados.jpg");
+        background-size: cover;
+    }
+    .gridItem-11-cat1 {
+        grid-area: 1 / 6 / 2 / 7;
+        background-image: url("../../images/subportfolio/grafico/Carnet de citas.jpg");
+        background-size: cover;
+    }
+    .gridItem-12-cat1 {
+        grid-area: 1 / 7 / 2 / 8;
+        background-image: url("../../images/subportfolio/grafico/volantes y tarjetas.jpg");
+        background-size: cover;
+    }
+    .gridItem-13-cat1 {
+        grid-area: 3 / 6 / 4 / 7;
+        background-image: url("../../images/subportfolio/grafico/IMG_20210709_184610442_2.jpg");
+        background-size: cover;
+    }
+    .gridItem-14-cat1 {
+        grid-area: 3 / 7 / 4 / 8;
+        background-image: url("../../images/subportfolio/grafico/IMG_20211218_153033808.jpg");
+        background-size: cover;
+    }
+
+    /* -------------------------------------------------- CATEGORIA 2 ------------------------------------------------------------- */
+
+    .carousel-grid-container-2 {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 500px;
+        position: relative;
+        justify-content: flex-end;
+        width: 143%;
+        left: -300px;
+    }
+
+    .grid-container-2 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-end;
+        width: 100%;
+    }
+
+    .titulo-categoria-right {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 32px;
+        color: var(--colorFont);
+        text-align: end;
+    }
+
+    .btn-grid-left {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        left: 0px;
+        top: 68px;
+        width: 150px;
+        z-index: 2;
+        height: 484px;
+        background-color: rgba(13, 13, 13, 0.4);
+        transition: background-color 0.5s;
+    }
+
+    .btn-grid-left:hover {
+        cursor: pointer;
+        background-color: rgba(13, 13, 13, 0);
+    }
+
+    #btn-grid-left:hover + .carousel-grid-container-2 {
+        animation: slideLeft 5s forwards ease-in-out;
+    }
+
+    @keyframes slideLeft {
+        0% {
+            -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+        }
+        100% {
+            -webkit-transform: translateX(20%);
+            transform: translateX(20%);
+        }
+    }
+
+    .btn-grid-left i {
+        color: var(--activeColorFont);
+        font-size: 54px;
+        font-weight: 700;
+        text-shadow: 0px 0px 3px #2fd159;
+        text-shadow: -4px 0 var(--colorFont), 0 4px var(--colorFont),
+            4px 0 var(--colorFont), 0 -4px var(--colorFont);
+        text-shadow: 2px 4px 10px #0d0d0d;
+    }
+
+    .carousel-grid-cat2 {
+        display: grid;
+        justify-content: flex-end;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: 1fr 0.7fr 1.3fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        gap: 16px;
+        width: 230%;
+        padding-left: 0;
+    }
+
+    .gridItem-1-cat2 {
+        grid-area: 1 / 1 / 3 / 2;
+        background-image: url("../../images/subportfolio/impresion-hd/IMG_20210625_165550222.jpg");
+        background-size: cover;
+    }
+    .gridItem-2-cat2 {
+        grid-area: 1 / 2 / 3 / 3;
+        background-image: url("../../images/subportfolio/impresion-hd/117181714_2709814582597257_540569883280932523_o.jpg");
+        background-size: cover;
+        background-position-x: left -90px;
+    }
+    .gridItem-3-cat2 {
+        grid-area: 3 / 1 / 4 / 3;
+        background-image: url("../../images/subportfolio/impresion-hd/1.jpg");
+        background-size: cover;
+    }
+    .gridItem-4-cat2 {
+        grid-area: 1 / 3 / 2 / 4;
+        background-image: url("../../images/subportfolio/impresion-hd/colegio.jpg");
+        background-size: cover;
+        background-position-x: left -40px;
+    }
+    .gridItem-5-cat2 {
+        grid-area: 2 / 3 / 4 / 4;
+        background-image: url("../../images/subportfolio/impresion-hd/96246934_2632553486990034_7655329049597706240_n.jpg");
+        background-size: cover;
+    }
+    .gridItem-6-cat2 {
+        grid-area: 1 / 4 / 2 / 5;
+        background-image: url("../../images/subportfolio/impresion-hd/IMG_20191030_162909447_HDR.jpg");
+        background-size: cover;
+        background-position-x: left -70px;
+    }
+    .gridItem-7-cat2 {
+        grid-area: 2 / 4 / 4 / 6;
+        background-image: url("../../images/subportfolio/impresion-hd/IMG_20200227_184513171_HDR.jpg");
+        background-size: cover;
+    }
+    .gridItem-8-cat2 {
+        grid-area: 1 / 5 / 2 / 6;
+        background-image: url("../../images/subportfolio/impresion-hd/IMG_20200903_165917510.jpg");
+        background-size: cover;
+    }
+    .gridItem-9-cat2 {
+        grid-area: 1 / 6 / 2 / 8;
+        background-image: url("../../images/subportfolio/impresion-hd/IMG_20210505_170749142.jpg");
+        background-size: cover;
+    }
+    .gridItem-10-cat2 {
+        grid-area: 2 / 6 / 3 / 7;
+        background-image: url("../../images/subportfolio/impresion-hd/IMG_20210829_194953939_HDR.jpg");
+        background-size: cover;
+        background-position-y: top 110px;
+    }
+    .gridItem-11-cat2 {
+        grid-area: 2 / 7 / 3 / 8;
+        background-image: url("../../images/subportfolio/impresion-hd/IMG_20210910_180241918_HDR.jpg");
+        background-size: cover;
+    }
+
+    .gridItem-12-cat2 {
+        grid-area: 3 / 6 / 4 / 7;
+        background-image: url("../../images/subportfolio/impresion-hd/IMG_20211214_134939563.jpg");
+        background-size: cover;
+    }
+    .gridItem-13-cat2 {
+        grid-area: 3 / 7 / 4 / 8;
+        background-image: url("../../images/subportfolio/impresion-hd/impresion-bunker.jpg");
+        background-size: cover;
+    }
+    .gridItem-14-cat2 {
+        grid-area: 1 / 8 / 2 / 9;
+        background-image: url("../../images/subportfolio/impresion-hd/impresion-cesar-lozano.jpg");
+        background-size: cover;
+    }
+    .gridItem-15-cat2 {
+        grid-area: 1 / 9 / 3 / 10;
+        background-image: url("../../images/subportfolio/impresion-hd/impresion-gran-formato.jpg");
+        background-size: cover;
+    }
+    .gridItem-16-cat2 {
+        grid-area: 2 / 8 / 4 / 9;
+        background-image: url("../../images/subportfolio/impresion-hd/lona ibero modificada.jpg");
+        background-size: cover;
+        background-position-x: left 140px;
+    }
+    .gridItem-17-cat2 {
+        grid-area: 3 / 9 / 4 / 10;
+        background-image: url("../../images/subportfolio/impresion-hd/TELA IMPRESA.jpg");
+        background-size: cover;
+    }
+    .gridItem-18-cat2 {
+        grid-area: 1 / 10 / 2 / 11;
+        background-image: url("../../images/subportfolio/impresion-hd/WhatsApp Image 2021-07-13 at 8.38.49 PM.jpg");
+        background-size: cover;
+    }
+    .gridItem-19-cat2 {
+        grid-area: 2 / 10 / 3 / 11;
+        background-image: url("../../images/subportfolio/impresion-hd/WhatsApp Image 2021-12-25 at 19.20.57.jpg");
+        background-size: cover;
+    }
+    .gridItem-20-cat2 {
+        grid-area: 3 / 10 / 4 / 11;
+        background-image: url("../../images/subportfolio/impresion-hd/IMG_20200822_175911183");
+        background-size: cover;
+    }
+
+    /* -------------------------------------------------- CATEGORIA 3 ------------------------------------------------------------- */
+
+    .titulo-categoria-left {
+        font-size: 30px;
+        font-weight: 700;
+        margin-bottom: 32px;
+        color: var(--colorFont);
+        margin-top: 35px;
+    }
+
+    .btn-grid-right {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        right: 0px;
+        top: 103px;
+        width: 150px;
+        z-index: 2;
+        height: 484px;
+        background-color: rgba(13, 13, 13, 0.4);
+        transition: background-color 0.5s;
+    }
+
+    .btn-grid-right:hover {
+        cursor: pointer;
+        background-color: rgba(13, 13, 13, 0);
+    }
+
+    #btn-grid-right:hover + .carousel-grid-container {
+        animation: slideRight 5s forwards ease-in-out;
+    }
+
+    @keyframes slideRight {
+        0% {
+            -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+        }
+        100% {
+            -webkit-transform: translateX(-30%);
+            transform: translateX(-30%);
+        }
+    }
+
+    .carousel-grid-cat3 {
+        display: grid;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: 1fr 0.7fr 1.3fr;
+        gap: 16px;
+        width: 230%;
+        padding-left: 0;
+    }
+
+    .gridItem-1-cat3 {
+        grid-area: 1 / 1 / 3 / 2;
+        background-image: url("../../images/subportfolio/stickers/2222.jpg");
+        background-size: cover;
+    }
+    .gridItem-2-cat3 {
+        grid-area: 1 / 2 / 3 / 4;
+        background-image: url("../../images/subportfolio/stickers/IMG_20210910_190629320_HDR.jpg");
+        background-size: cover;
+    }
+    .gridItem-3-cat3 {
+        grid-area: 3 / 1 / 4 / 3;
+        background-image: url("../../images/subportfolio/stickers/122333558_3647770861942200_1278085205417415492_n.jpg");
+        background-size: cover;
+    }
+    .gridItem-4-cat3 {
+        grid-area: 3 / 3 / 4 / 4;
+        background-image: url("../../images/subportfolio/stickers/cafe.jpg");
+        background-size: cover;
+    }
+    .gridItem-5-cat3 {
+        grid-area: 1 / 4 / 4 / 5;
+        background-image: url("../../images/subportfolio/stickers/IMG_20210423_184503616.jpg");
+        background-size: cover;
+        background-position-x: left -40px;
+    }
+    .gridItem-6-cat3 {
+        grid-area: 1 / 5 / 2 / 6;
+        background-image: url("../../images/subportfolio/stickers/IMG_20210429_183518442.jpg");
+        background-size: cover;
+    }
+    .gridItem-7-cat3 {
+        grid-area: 2 / 5 / 3 / 7;
+        background-image: url("../../images/subportfolio/stickers/214202833_4397275920325020_994512191875189805_n.jpg");
+        background-size: cover;
+    }
+    .gridItem-8-cat3 {
+        grid-area: 3 / 5 / 4 / 6;
+        background-image: url("../../images/subportfolio/stickers/IMG_20210616_183557473.jpg");
+        background-size: cover;
+    }
+    .gridItem-9-cat3 {
+        grid-area: 1 / 6 / 2 / 8;
+        background-image: url("../../images/subportfolio/stickers/IMG_20210924_174308959.jpg");
+        background-size: cover;
+    }
+    .gridItem-10-cat3 {
+        grid-area: 2 / 7 / 4 / 8;
+        background-image: url("../../images/subportfolio/stickers/picos.jpg");
+        background-size: cover;
+    }
+    .gridItem-11-cat3 {
+        grid-area: 3 / 6 / 4 / 7;
+        background-image: url("../../images/subportfolio/stickers/Stickers.jpg");
+        background-size: cover;
+    }
+    .gridItem-12-cat3 {
+        grid-area: 2 / 8 / 4 / 10;
+        background-image: url("../../images/subportfolio/stickers/vaquita.jpg");
+        background-size: cover;
+    }
+    .gridItem-13-cat3 {
+        grid-area: 1 / 8 / 2 / 9;
+        background-image: url("../../images/subportfolio/stickers/vinil transparente.jpg");
+        background-size: cover;
+    }
+    .gridItem-14-cat3 {
+        grid-area: 1 / 9 / 2 / 10;
+        background-image: url("../../images/subportfolio/stickers/el saudi.jpg");
+        background-size: cover;
+    }
+
+    /* -------------------------------------------------- CATEGORIA 4 ------------------------------------------------------------- */
+
+    .carousel-grid-container-4 {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 500px;
+        position: relative;
+        justify-content: flex-end;
+        width: 143%;
+        left: -450px;
+    }
+
+    #btn-grid-left:hover + .carousel-grid-container-4 {
+        animation: slideLeft2 5s forwards ease-in-out;
+    }
+
+    @keyframes slideLeft2 {
+        0% {
+            -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+        }
+        100% {
+            -webkit-transform: translateX(30%);
+            transform: translateX(30%);
+        }
+    }
+
+    .carousel-grid-cat4 {
+        display: grid;
+        justify-content: flex-end;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: 1fr 0.7fr 1.3fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        gap: 16px;
+        width: 230%;
+        padding-left: 0;
+    }
+
+    .gridItem-1-cat4 {
+        grid-area: 1 / 1 / 3 / 3;
+        background-image: url("../../images/subportfolio/serigrafia/bimbo.jpg");
+        background-size: cover;
+    }
+    .gridItem-2-cat4 {
+        grid-area: 1 / 3 / 3 / 4;
+        background-image: url("../../images/subportfolio/serigrafia/IMG_20210619_195344286.jpg");
+        background-size: cover;
+    }
+    .gridItem-3-cat4 {
+        grid-area: 3 / 1 / 4 / 2;
+        background-image: url("../../images/subportfolio/serigrafia/ni-una-menos.jpg");
+        background-size: cover;
+    }
+    .gridItem-4-cat4 {
+        grid-area: 3 / 2 / 4 / 4;
+        background-image: url("../../images/subportfolio/serigrafia/IMG_20191116_140507767_HDR.jpg");
+        background-size: cover;
+    }
+    .gridItem-5-cat4 {
+        grid-area: 2 / 4 / 4 / 5;
+        background-image: url("../../images/subportfolio/serigrafia/IMG_20210824_191007629_HDR.jpg");
+        background-size: cover;
+    }
+    .gridItem-6-cat4 {
+        grid-area: 2 / 5 / 4 / 6;
+        background-image: url("../../images/subportfolio/serigrafia/IMG_20220115_113929330.jpg");
+        background-size: cover;
+    }
+    .gridItem-7-cat4 {
+        grid-area: 1 / 4 / 2 / 6;
+        background-image: url("../../images/subportfolio/serigrafia/mood.jpg");
+        background-size: cover;
+    }
+    .gridItem-8-cat4 {
+        grid-area: 1 / 6 / 3 / 7;
+        background-image: url("../../images/subportfolio/serigrafia/IMG_20220115_145135973.jpg");
+        background-size: cover;
+    }
+    .gridItem-9-cat4 {
+        grid-area: 3 / 6 / 4 / 7;
+        background-image: url("../../images/subportfolio/serigrafia/mameluco .jpg");
+        background-size: cover;
+    }
+    .gridItem-10-cat4 {
+        grid-area: 2 / 7 / 3 / 8;
+        background-image: url("../../images/subportfolio/serigrafia/playeras.jpg");
+        background-size: cover;
+    }
+    .gridItem-11-cat4 {
+        grid-area: 1 / 7 / 2 / 8;
+        background-image: url("../../images/subportfolio/serigrafia/32.jpg");
+        background-size: cover;
+    }
+    .gridItem-12-cat4 {
+        grid-area: 1 / 8 / 2 / 9;
+        background-image: url("../../images/subportfolio/serigrafia/IMG_20210609_193300445.jpg");
+        background-size: cover;
+    }
+    .gridItem-13-cat4 {
+        grid-area: 3 / 7 / 4 / 9;
+        background-image: url("../../images/subportfolio/serigrafia/dtf.jpg");
+        background-size: cover;
+    }
+    .gridItem-14-cat4 {
+        grid-area: 2 / 8 / 3 / 9;
+        background-image: url("../../images/subportfolio/serigrafia/WhatsApp Image 2021-12-25 at 19.29.00 (6).jpeg");
+        background-size: cover;
+    }
+    .gridItem-15-cat4 {
+        grid-area: 1 / 9 / 4 / 10;
+        background-image: url("../../images/subportfolio/serigrafia/IMG_20220111_175144396.jpg");
+        background-size: cover;
+    }
+
+    /* -------------------------------------------------- CATEGORIA 5 ------------------------------------------------------------- */
+
+
+
+    .carousel-grid-cat5 {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr .7fr 1.3fr;
+        gap: 16px;
+        width: 230%;
+        padding-left: 0;
+    }
+
+        
+    .gridItem-1-cat5 { 
+        grid-area: 1 / 1 / 3 / 3; 
+        background-image: url("../../images/subportfolio/promocionales/PLUMASVERDES.jpg");
+        background-size: cover;
+    }
+    .gridItem-2-cat5 { 
+        grid-area: 3 / 1 / 4 / 2; 
+        background-image: url("../../images/subportfolio/promocionales/IMG_20190814_204156939.jpg");
+        background-size: cover;
+    }
+    .gridItem-3-cat5 { 
+        grid-area: 3 / 2 / 4 / 4; 
+        background-image: url("../../images/subportfolio/promocionales/WhatsApp Image 2021-08-10 at 8.37.43 PM.jpeg");
+        background-size: cover;
+    }
+    .gridItem-4-cat5 { 
+        grid-area: 2 / 3 / 3 / 4; 
+        background-image: url("../../images/subportfolio/promocionales/121635814_2768542070057841_5609653264294786088_o (1).jpg");
+        background-size: cover;
+    }
+    .gridItem-5-cat5 { 
+        grid-area: 1 / 3 / 2 / 4; 
+        background-image: url("../../images/subportfolio/promocionales/124826498_3701569093229043_3027284605951391386_o.jpg");
+        background-size: cover;
+    }
+    .gridItem-6-cat5 { 
+        grid-area: 1 / 4 / 2 / 6; 
+        background-image: url("../../images/subportfolio/promocionales/131567749_2823071861271528_602558689938918008_o.jpg");
+        background-size: cover;
+        
+    }
+    .gridItem-7-cat5 { 
+        grid-area: 2 / 4 / 4 / 5; 
+        background-image: url("../../images/subportfolio/promocionales/154514580_3998474616871821_4779512380173525499_n.jpg");
+        background-size: cover;
+        background-position-x: left -60px;
+    }
+    .gridItem-8-cat5 { 
+        grid-area: 2 / 5 / 3 / 6; 
+        background-image: url("../../images/subportfolio/promocionales/among-us.jpg");
+        background-size: cover;
+    }
+    .gridItem-9-cat5 { 
+        grid-area: 3 / 5 / 4 / 6; 
+        background-image: url("../../images/subportfolio/promocionales/demostand corregido.jpg");
+        background-size: cover;
+    }
+    .gridItem-10-cat5 { 
+        grid-area: 2 / 6 / 3 / 8; 
+        background-image: url("../../images/subportfolio/promocionales/gorras fiesta.jpg");
+        background-size: cover;
+        background-position-y: top -40px;
+    }
+    .gridItem-11-cat5 { 
+        grid-area: 1 / 6 / 2 / 7; 
+        background-image: url("../../images/subportfolio/promocionales/BADBUNNY.jpg");
+        background-size: cover;
+        background-position-x: left -40px;
+    }
+    .gridItem-12-cat5 { 
+        grid-area: 1 / 7 / 2 / 8; 
+        background-image: url("../../images/subportfolio/promocionales/IMG_20200424_145655499_HDR.jpg");
+        background-size: cover;
+    }
+    .gridItem-13-cat5 { 
+        grid-area: 3 / 6 / 4 / 7; 
+        background-image: url("../../images/subportfolio/promocionales/IMG_20200824_153822433.jpg");
+        background-size: cover;
+    }
+    .gridItem-14-cat5 { 
+        grid-area: 3 / 7 / 4 / 8; 
+        background-image: url("../../images/subportfolio/promocionales/IMG_20210802_183259180_HDR.jpg");
+        background-size: cover;
+        background-position-x: left -60px;
+    }
+    .gridItem-15-cat5 { 
+        grid-area: 1 / 8 / 3 / 9; 
+        background-image: url("../../images/subportfolio/promocionales/IMG_20210426_133037224.jpg");
+        background-size: cover;
+        background-position-x: left -40px;
+    }
+    .gridItem-16-cat5 { 
+        grid-area: 3 / 8 / 4 / 10;
+        background-image: url("../../images/subportfolio/promocionales/IMG_20211029_194329859_HDR.jpg");
+        background-size: cover;
+    }
+    .gridItem-17-cat5 { 
+        grid-area: 2 / 9 / 3 / 10; 
+        background-image: url("../../images/subportfolio/promocionales/IMG_20211029_194336913_HDR.jpg");
+        background-size: cover;
+    }
+    .gridItem-18-cat5 { 
+        grid-area: 1 / 9 / 2 / 10; 
+        background-image: url("../../images/subportfolio/promocionales/IMG_20211127_101328347.jpg");
+        background-size: cover;
+        background-position-x: left -40px;
+    }
+    .gridItem-19-cat5 { 
+        grid-area: 1 / 10 / 2 / 11;
+        background-image: url("../../images/subportfolio/promocionales/IMG_20211210_145253673.jpg");
+        background-size: cover;
+        background-position-x: left -40px;
+    }
+    .gridItem-20-cat5 { 
+        grid-area: 2 / 10 / 3 / 11; 
+        background-image: url("../../images/subportfolio/promocionales/IMG_20211218_143424023 (1).jpg");
+        background-size: cover;
+    }
+    .gridItem-21-cat5 { 
+        grid-area: 1 / 11 / 3 / 12; 
+        background-image: url("../../images/subportfolio/promocionales/pines.jpg");
+        background-size: cover;
+    }
+    .gridItem-22-cat5 { 
+        grid-area: 3 / 11 / 4 / 12; 
+        background-image: url("../../images/subportfolio/promocionales/STAND .jpg");
+        background-size: cover;
+    }
+    .gridItem-23-cat5 { 
+        grid-area: 3 / 10 / 4 / 11; 
+        background-image: url("../../images/subportfolio/promocionales/tazas marinela.jpg");
+        background-size: cover;
+    }
+    .gridItem-24-cat5 { 
+        grid-area: 1 / 12 / 2 / 13; 
+        background-image: url("../../images/subportfolio/promocionales/WhatsApp Image 2021-06-26 at 1.17.52 PM.jpeg");
+        background-size: cover;
+    }
+    .gridItem-25-cat5 { 
+        grid-area: 2 / 12 / 3 / 13; 
+        background-image: url("../../images/subportfolio/promocionales/WhatsApp Image 2021-12-25 at 19.29.00 (19).jpeg");
+        background-size: cover;
+    }
+    .gridItem-26-cat5 { 
+        grid-area: 3 / 12 / 4 / 13; 
+        background-image: url("../../images/subportfolio/promocionales/WhatsApp Image 2021-12-25 at 19.48.05 (4).jpeg");
+        background-size: cover;
+    } 
+
+
+    /* -------------------------------------------------- CATEGORIA 6 ------------------------------------------------------------- */
+
+
+    .carousel-grid-container-6 {
+        display: flex;
+        flex-direction: row-reverse;
+        height: 500px;
+        position: relative;
+        justify-content: flex-end;
+        width: 143%;
+        left: -400px;
+    }
+
+    #btn-grid-left:hover + .carousel-grid-container-6 {
+        animation: slideLeft3 5s forwards ease-in-out;
+    }
+
+    @keyframes slideLeft3 {
+        0% {
+            -webkit-transform: translateX(0%);
+            transform: translateX(0%);
+        }
+        100% {
+            -webkit-transform: translateX(27%);
+            transform: translateX(27%);
+        }
+    }
+
+    .carousel-grid-cat6 {
+        display: grid;
+        justify-content: flex-end;
+        grid-template-columns: repeat(9, 1fr);
+        grid-template-rows: 1fr 0.7fr 1.3fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        gap: 16px;
+        width: 230%;
+        padding-left: 0;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 1fr .7fr 1.3fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        }
+        
+        .gridItem-2-cat6 { 
+            grid-area: 1 / 2 / 3 / 3; 
+            background-image: url("../../images/subportfolio/insumos-viniles/D_NQ_NP_972311-MLM43517527017_092020-O.jpg");
+            background-size: cover;
+        }
+        .gridItem-1-cat6 { 
+            grid-area: 1 / 1 / 3 / 2; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20211129_162803907.jpg");
+            background-size: cover;
+        }
+        .gridItem-3-cat6 { 
+            grid-area: 3 / 1 / 4 / 2; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220111_172444729.jpg");
+            background-size: cover;
+        }
+        .gridItem-4-cat6 { 
+            grid-area: 3 / 2 / 4 / 4; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220111_172542719.jpg");
+            background-size: cover;
+        }
+        .gridItem-5-cat6 { 
+            grid-area: 1 / 3 / 2 / 4; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220111_172708515.jpg");
+            background-size: cover;
+        }
+        .gridItem-6-cat6 { 
+            grid-area: 2 / 3 / 3 / 4; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220111_172808970.jpg");
+            background-size: cover;
+        }
+        .gridItem-7-cat6 { 
+            grid-area: 1 / 4 / 2 / 5; 
+            background-image: url("../../images/subportfolio/insumos-viniles/tintas.jpg");
+            background-size: cover;
+        }
+        .gridItem-8-cat6 { 
+            grid-area: 1 / 5 / 2 / 6; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220111_174322860.jpg");
+            background-size: cover;
+        }
+        .gridItem-9-cat6 { 
+            grid-area: 3 / 4 / 4 / 7; 
+            background-image: url("../../images/subportfolio/insumos-viniles/tazas.jpg");
+            background-size: cover;
+            background-position-y: top -40px;
+        }
+        .gridItem-10-cat6 { 
+            grid-area: 2 / 4 / 3 / 5; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220111_174537508.jpg");
+            background-size: cover;
+        }
+        .gridItem-11-cat6 { 
+            grid-area: 2 / 5 / 3 / 6; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_172821751.jpg");
+            background-size: cover;
+        }
+        .gridItem-12-cat6 { 
+            grid-area: 1 / 6 / 3 / 7; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_172923225.jpg");
+            background-size: cover;
+        }
+        .gridItem-13-cat6 { 
+            grid-area: 2 / 7 / 4 / 8; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_173004851.jpg");
+            background-size: cover;
+        }
+        .gridItem-14-cat6 { 
+            grid-area: 1 / 7 / 2 / 8; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_173117985.jpg");
+            background-size: cover;
+        }
+        .gridItem-15-cat6 { 
+            grid-area: 1 / 8 / 2 / 9; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_173154179.jpg");
+            background-size: cover;
+        }
+        .gridItem-16-cat6 { 
+            grid-area: 3 / 8 / 4 / 9; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_173419239.jpg");
+            background-size: cover;
+        }
+        .gridItem-17-cat6 { 
+            grid-area: 3 / 9 / 4 / 10; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_175751005.jpg");
+            background-size: cover;
+        }
+        .gridItem-18-cat6 { 
+            grid-area: 2 / 9 / 3 / 10; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_175759752.jpg");
+            background-size: cover;
+        }
+        .gridItem-19-cat6 { 
+            grid-area: 2 / 8 / 3 / 9; 
+            background-image: url("../../images/subportfolio/insumos-viniles/vinilo-plateado.jpg");
+            background-size: cover;
+        }
+        .gridItem-20-cat6 { 
+            grid-area: 1 / 9 / 2 / 10; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220114_124324706.jpg");
+            background-size: cover;
+        }
+        .gridItem-21-cat6 { 
+            grid-area: 1 / 10 / 2 / 11; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220114_124455806.jpg");
+            background-size: cover;
+        }
+        .gridItem-22-cat6 { 
+            grid-area: 2 / 10 / 3 / 11; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220114_125027753.jpg");
+            background-size: cover;
+        }
+        .gridItem-23-cat6 { 
+            grid-area: 3 / 10 / 4 / 11; 
+            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220114_125209598.jpg");
+            background-size: cover;
+        }
+        .gridItem-24-cat6 { 
+            grid-area: 3 / 11 / 4 / 12; 
+            background-image: url("../../images/subportfolio/insumos-viniles/vinilo-azul-metalizado.jpg");
+            background-size: cover;
+        }
+        .gridItem-25-cat6 { 
+            grid-area: 2 / 11 / 3 / 12; 
+            background-image: url("../../images/subportfolio/insumos-viniles/vinilo-verde-metalizado.jpg");
+            background-size: cover;
+        }
+        .gridItem-26-cat6 { 
+            grid-area: 1 / 11 / 2 / 12; 
+            background-image: url("../../images/subportfolio/insumos-viniles/WhatsApp Image 2022-01-10 at 3.05.44 PM.jpg");
+            background-size: cover;
+        }
+        .gridItem-27-cat6 { 
+            grid-area: 1 / 12 / 2 / 13; 
+            background-image: url("../../images/subportfolio/insumos-viniles/WhatsApp Image 2022-01-10 at 5.01.36 PM.jpg");
+            background-size: cover;
+        }
+        .gridItem-28-cat6 { 
+            grid-area: 2 / 12 / 3 / 13; 
+            background-image: url("../../images/subportfolio/insumos-viniles/WhatsApp Image 2022-01-10 at 3.42.08 PM.jpg");
+            background-size: cover;
+        }
+        .gridItem-29-cat6 { 
+            grid-area: 3 / 12 / 4 / 13; 
+            background-image: url("../../images/subportfolio/insumos-viniles/WhatsApp Image 2022-01-10 at 5.51.57 PM.jpg");
+            background-size: cover;
+        } 
+
 }
