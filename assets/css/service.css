@@ -52,12 +52,13 @@
 body {
     width: 100%;
     height: 100%;
-    /* No creo poder usar esto debido a las diferentes proporciones de las cards */
-    /* background-image:  linear-gradient(#27282D 825px, #171718 825px, #171718 1040px, #27282D 1040px); 
-    background-size: 100% 1040px;
-    background-repeat: repeat-y; */
+    background-color: var(--backgroundColor1) !important;
+    /* !important para sobreescribir estilos de reboot.scss */
 }
 
+/* ==================== 
+======= Header ======
+=======================*/
 
 /* ==================== 
 ======= Main ======
@@ -70,7 +71,6 @@ main {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #171718;
 }
 
 
@@ -80,41 +80,47 @@ main .title {
     font-weight: var(--navFontWeight);
     font-style: normal;
     line-height: 32px;
+    width: 100%;
+    margin-bottom: 36px;
+    height: 32px;
+    text-align: center;
 }
 
 /* ==================== 
-======= card ======
+======= card (sections) ======
 =======================*/
 
 main .card {
-    height: 800px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: auto;
     border: none;
     background-color: var(--backgroundColor2);
-    padding: 46px 0 85px;
-    margin-bottom: 130px;
+    /* border-bottom: 132px solid var(--backgroundColor1); */
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+    padding: 40px 0 0;
+    margin-bottom: 132px;
 }
 
 .card .card--content {
-    height: 100%;
+    min-height: 308px;
     width: 280px;
     max-width: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .card--content .card--text {
     margin-bottom: 20px;
-    height: 300px;
+    height: 100%;
     width: 100%;
     color: #FFF;
     background-color: var(--backgroundColor3);
-    padding: 25px 0
+    padding: 25px 0;
+    box-shadow: 4px 4px 10px #0D0D0D;
 }
 
 .card--content h2 {
@@ -131,35 +137,46 @@ main .card {
 
 .card--content li {
     font-size: var(--fontSizeS);
-    font-weight: 500;
+    font-weight: 400;
     text-indent: -15px;
     list-style: none;
 }
 
 .card--content li:before {
-    /* text-indent: 15px; */
     content: "- ";
 }
 
 .card--content .card--slider {
+    height: 450px;
+    width: 280px;    
+}
+
+/* .card--slider .carousel-inner {
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+} */
+
+.card--slider .carousel-control-prev,
+.card--slider .carousel-control-next {
+    height: 300px;
+}
+
+.card--content .card--slider .carousel-item {
     height: 300px;
     width: 100%;
-    max-width: 300px;
-    background-color: darkgrey;
 }
 
 .card--content .card--button {
     background-color: var(--buttonColor);
-    width: 50%;
-    max-width: 150px;
+    width: 150px;
     height: 36px;
-    margin-top: 23px;
     font-size: 14px;
-    font-weight: var(--navFontWeight);
+    font-weight: 600;
     font-style: normal;
     border: none;
     text-align: center;
     border-radius: 10px;
+    margin: 23px calc(50% - 75px) 20px;
+    box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
 }
 
 

@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Studio 51</title>
 	<!-- Agregar meta para que el logo aparezca en el tab -->
-	<link rel="stylesheet" href="../assets/css/styles.css">
+	<link rel="stylesheet" href="../assets/css/service.css">
 	<link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -17,72 +17,386 @@
 </head>
 
 <body class="body body-servicios">
-	<header class="header">
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<div class="container-fluid navInvert">
-				<a class="navbar-brand" href="../index.html"><img class="logo"
-						src="../images/logos/studio 51 logotipo buenoLISTO.png" alt=""></a>
-				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-					data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-					aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav">
-						<li class="nav-item inicio">
-							<a class="nav-link active" aria-current="Inicio" href="../index.html">Inicio</a>
-						</li>
-						<li class="nav-item activeLink inicio mobileDrop">
-							<a class="nav-link active " aria-current="Inicio" href="./servicios.html">Servicios</a>
-						</li>
-						<li class="nav-item dropdown activeLink desktopDrop">
-							<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-								data-bs-toggle="dropdown" aria-expanded="false">
-								Servicios
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="./servicios.html">Ver todos</a></li>
-								<li><a class="dropdown-item" href="#">Diseño Gráfico, Impresión Digital / Offset</a>
-								</li>
-								<li><a class="dropdown-item" href="#">Impresión Gran Formato & HD</a></li>
-								<li><a class="dropdown-item" href="#">Stickers / Etiquetas</a></li>
-								<li><a class="dropdown-item" href="#">Serigrafía / DTF & Sublimación</a></li>
-								<li><a class="dropdown-item" href="#">Artículos Promocionales Empresariales &
-										Eventos</a></li>
-								<li><a class="dropdown-item" id="lastDrop" href="#">Insumos / Viniles / Tintas</a></li>
-							</ul>
-						</li>
-						<li class="nav-item inicio mobileDrop">
-							<a class="nav-link active " aria-current="Inicio" href="./portafolio.html">Portafolio</a>
-						</li>
-						<li class="nav-item dropdown desktopDrop">
-							<a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
-								data-bs-toggle="dropdown" aria-expanded="false">
-								Portafolio
-							</a>
-							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<li><a class="dropdown-item" href="./portafolio.html">Ver todos</a></li>
-								<li><a class="dropdown-item" href="#">Diseño Gráfico, Impresión Digital / Offset</a>
-								</li>
-								<li><a class="dropdown-item" href="#">Impresión Gran Formato & HD</a></li>
-								<li><a class="dropdown-item" href="#">Stickers / Etiquetas</a></li>
-								<li><a class="dropdown-item" href="#">Serigrafía / DTF & Sublimación</a></li>
-								<li><a class="dropdown-item" href="#">Artículos Promocionales Empresariales &
-										Eventos</a></li>
-								<li><a class="dropdown-item" id="lastDrop" href="#">Insumos / Viniles / Tintas</a></li>
-							</ul>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="Inicio" href="./acerca.html">Quienes somos</a>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link active" aria-current="Inicio" href="./contacto.html">Contacto</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</nav>
-	</header>
+	<!-- <header class="header">
+    </header> -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid navInvert">
+            <a class="navbar-brand" href="../index.html"><img class="logo"
+                    src="../images/logos/studio 51 logotipo buenoLISTO.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item inicio">
+                        <a class="nav-link active" aria-current="Inicio" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item activeLink inicio mobileDrop">
+                        <a class="nav-link active " aria-current="Inicio" href="./servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item dropdown activeLink desktopDrop">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Servicios
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./servicios.html">Ver todos</a></li>
+                            <li><a class="dropdown-item" href="#">Diseño Gráfico, Impresión Digital / Offset</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Impresión Gran Formato & HD</a></li>
+                            <li><a class="dropdown-item" href="#">Stickers / Etiquetas</a></li>
+                            <li><a class="dropdown-item" href="#">Serigrafía / DTF & Sublimación</a></li>
+                            <li><a class="dropdown-item" href="#">Artículos Promocionales Empresariales &
+                                    Eventos</a></li>
+                            <li><a class="dropdown-item" id="lastDrop" href="#">Insumos / Viniles / Tintas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item inicio mobileDrop">
+                        <a class="nav-link active " aria-current="Inicio" href="./portafolio.html">Portafolio</a>
+                    </li>
+                    <li class="nav-item dropdown desktopDrop">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Portafolio
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./portafolio.html">Ver todos</a></li>
+                            <li><a class="dropdown-item" href="#">Diseño Gráfico, Impresión Digital / Offset</a>
+                            </li>
+                            <li><a class="dropdown-item" href="#">Impresión Gran Formato & HD</a></li>
+                            <li><a class="dropdown-item" href="#">Stickers / Etiquetas</a></li>
+                            <li><a class="dropdown-item" href="#">Serigrafía / DTF & Sublimación</a></li>
+                            <li><a class="dropdown-item" href="#">Artículos Promocionales Empresariales &
+                                    Eventos</a></li>
+                            <li><a class="dropdown-item" id="lastDrop" href="#">Insumos / Viniles / Tintas</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="Inicio" href="./acerca.html">Quienes somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="Inicio" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+	<main>
+        
+        <section class="card">
+            <h1 class="title">Servicios</h1>
+            <div class="card--content">
+
+                <div class="card--text">
+                    <h2>Diseño Gráfico, Impresión Digital / Offset</h2>
+        
+                    <ul>
+                        <li>Servicio de Diseño</li>
+                        <li>Gráfico Profesional</li>
+                        <li>Impresión Tabloide </li>
+                        <li>Trípticos, dípticos</li>
+                        <li>Volantes</li>
+                        <li>Menús</li>
+                        <li>Hojas Membretadas</li>
+                        <li>Recetarios, Notas de venta</li>
+                        <li>Tarjetas de Presentación</li>
+                    </ul>
+                </div>
+    
+                <div class="card--slider">      
+                
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <button class="card--button">VER PORTAFOLIO</button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+
+
+        <section class="card">
+            <div class="card--content">
+                <div class="card--text">
+                    <h2>Impresión Gran Formato & HD</h2>
+        
+                    <ul>
+                        <li>Impresión en Lona</li>
+                        <li>Impresión en Vinil</li>
+                        <li>Impresión en Vinil Microperforado</li>
+                        <li>Impresión en Vinil Transparente</li>
+                        <li>Impresión en Tela Canvas</li>
+                        <li>Impresión de Tela Mesh</li>
+                        <li>Impresión en Papel Couche</li>
+                    </ul>
+                </div>
+    
+                <div class="card--slider">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <button class="card--button">VER PORTAFOLIO</button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+
+
+
+        <section class="card">
+            <div class="card--content">
+                <div class="card--text">
+                    <h2>Stickers / Etiquetas</h2>
+        
+                    <ul>
+                        <li>Stickers suajados en papel adhesivo</li>
+                        <li>Stickers suajados en Vinil Blanco Impreso</li>
+                        <li>Stickers suajados en Vinil Transparente</li>
+                        <li>Etiquetas en Vinil de corte</li>
+                        <li>Etiquetas en Papel Adhesivo -Etiquetas en Vinil</li>
+                    </ul>
+                </div>
+    
+                <div class="card--slider">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <button class="card--button">VER PORTAFOLIO</button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+
+        </section>
+
+
+
+        <section class="card">
+            <div class="card--content">
+                <div class="card--text">
+                    <h2>Serigrafía / DTF & Sublimación</h2>
+        
+                    <ul>
+                        <li>Playeras</li>
+                        <li>Bolsas Ecológicas</li>
+                        <li>Vasos</li>
+                        <li>Tazas</li>
+                        <li>Souvenirs</li>
+                        <li>Tela sublimada por metro</li>
+                    </ul>
+    
+                </div>
+    
+                <div class="card--slider">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <button class="card--button">VER PORTAFOLIO</button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+
+
+        <section class="card">
+            <div class="card--content">
+                <div class="card--text">
+                    <h2>Artículos Promocionales Empresariales & Eventos Sociales</h2>
+        
+                    <ul>
+                        <li>Lapiceros</li>
+                        <li>Imanes</li>
+                        <li>Destapadores</li>
+                        <li>Banderines</li>
+                        <li>Calendarios</li>
+                        <li>Bolsas</li>
+                        <li>Botones / Pines</li>
+                        <li>Demostand</li>
+                        <li>Portabanners</li>
+                        <li>Vasos y Cilindros</li>
+                    </ul>
+                </div>
+    
+                <div class="card--slider">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <button class="card--button">VER PORTAFOLIO</button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+
+
+
+        <section class="card">
+            <div class="card--content">
+                <div class="card--text">
+                    <h2>Insumos / Viniles / Tintas</h2>
+        
+                    <ul>
+                        <li>Taza Blanca para sublimar</li>
+                        <li>Vinil de Corte</li>
+                        <li>Vinil Textil</li>
+                        <li>Tintas Ecosolventes</li>
+                        <li>Solventes y Base agua para impresoras y Plotters</li>
+                    </ul>
+                </div>
+    
+                <div class="card--slider">
+                    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="https://via.placeholder.com/250" class="d-block w-100" alt="...">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <button class="card--button">VER PORTAFOLIO</button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+    </main>
 
 </body>
 
