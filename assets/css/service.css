@@ -218,6 +218,10 @@ main .card {
 ======= Footer ======
 =======================*/
 
+footer {
+    display: none !important;
+}
+
 
 .footer {
     background-color: var(--backgroundColor2);
@@ -252,7 +256,14 @@ main .card {
 
 
 
+/* ==================== 
+======= Utilidades ======
+=======================*/
 
+
+.desktop--container {
+    display: none;
+}
 
 
 
@@ -351,4 +362,77 @@ main .card {
     #lastDrop {
         border: none !important;
     }
+
+
+
+
+
+    /* ===== desktop images ===== */
+
+
+    main .card {
+
+        /* borrar luego */
+        margin-top: 130px;
+        z-index: 0;
+        width: 100%;
+        max-width: 1080px;
+        height: 610px;
+        padding: 78px 75px 72px 82px;
+    }
+
+    .card .card--content {
+        flex-direction: row;
+        width: 100%;
+        max-width: none;
+    }
+
+    .card--content .card--text {
+        width: 418px;
+        height: 456px;
+        z-index: 1;
+
+
+        position: relative;
+
+    }
+
+    .card--slider, .title {
+        display: none;
+    }
+
+    .desktop--container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        z-index: 2;
+
+
+        position: absolute;
+        left: 418px;
+        top: 140px;
+    }
+
+    .img--container {
+        width: auto;
+        display: flex;
+        gap: 21px;
+    }
+
+
+    .img--sim {
+        height: 320px;
+        width: 190px;
+        background-color: red;
+    }
+
+    .card--content .card--button {
+        height: 48px;
+        width: 200px;
+        margin: 19px 0 0;
+        align-self: flex-end;
+        font-size: var(--btnTextSizeD);
+        font-weight: 700;
+    }
+
 }
