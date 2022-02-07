@@ -27,11 +27,12 @@
     --navTextSizeM:22px;
     --navFontWeight:600;
 
-    --sectionTitleSize: 26px;
-    --fontSizeL: 28px; 
-    --fontSizeM: 18px;
-    --fontSizeS: 15px;
-    
+    --servTitleSizeM: 26px;
+    --servFontSizeM: 18px;
+    --servLiFontSizeM: 15px;
+
+    --servFontSizeD: 28px;
+    --servLiFontSizeD: 18px;
 }
 
 
@@ -60,37 +61,38 @@ body {
 ======= Header ======
 =======================*/
 
+
+/* ==================== 
+======= NavBar ======
+=======================*/
+
+.logo {
+    width: 102px;
+    height: 34px;
+}
+
 .navbar {
-    z-index: 1; /* el z-index es para que aparezca el box-shadow */
+    background-color: var(--backgroundColor2);
     box-shadow: 2px 4px 10px #0d0d0d;
+    z-index: 1; /* el z-index es para que aparezca el box-shadow */
 }
 
-
-
-
-.dropdown-menu {
-    background-color: var(--backgroundColor1) !important;
-    width: calc(100vw - 37px);
+.navInvert {
+    flex-direction: row-reverse !important; /* Puse el !important para que tenga en cuenta esto en vez del de bootstrap*/
 }
 
-.dropdown-menu li {
-    margin-left: 27px;
+.navbar-toggler {
+    border: none !important;
 }
 
-.dropdown-menu li a:hover {
-    background-color: #2fd159;
+.navbar-toggler-icon {
+    width: 24px !important;
+    height: 24px !important;
 }
 
-.dropdown-item {
-    width: 90% !important;
-    color: var(--colorFont) !important;
-    font-size: var(--navTextSizeD);
-    padding: 25px 15px 25px 0 !important;
-    border-bottom: 0.5px solid #c4c4c4 !important;
-    white-space: normal !important;
+.activeLink > a {
+    color: var(--activeColorFont) !important;
 }
-
-
 
 .nav-item {
     font-size: var(--navTextSizeM);
@@ -99,6 +101,13 @@ body {
     padding-bottom: 39.86px;
 }
 
+.navbar-nav {
+    padding-top: 30px;
+}
+
+.desktopDrop {
+    display: none;
+}
 
 /* ==================== 
 ======= Main ======
@@ -116,7 +125,7 @@ main {
 
 main .title {
     color: var(--activeColorFont);
-    font-size: var(--sectionTitleSize);
+    font-size: var(--servTitleSizeM);
     font-weight: var(--navFontWeight);
     font-style: normal;
     line-height: 32px;
@@ -162,20 +171,20 @@ main .card {
     box-shadow: 4px 4px 10px #0D0D0D;
 }
 
-.card--content h2 {
-    font-size: var(--fontSizeM);
+.card--text h2 {
+    font-size: var(--servFontSizeM);
     text-align: center;
     line-height: 22px;
     font-weight: var(--navFontWeight);
     margin: 0 20px;
 }
 
-.card--content ul {
+.card--text ul {
     margin-top: 10px;
 }
 
-.card--content li {
-    font-size: var(--fontSizeS);
+.card--text li {
+    font-size: var(--servLiFontSizeM);
     font-weight: 400;
     text-indent: -15px;
     list-style: none;
@@ -264,10 +273,6 @@ footer {
 .desktop--container {
     display: none;
 }
-
-
-
-
 
 /* ==================== 
 ======= MediaQueries ======
@@ -363,7 +368,7 @@ footer {
         border: none !important;
     }
 
-
+    
 
 
 
@@ -378,7 +383,7 @@ footer {
         width: 100%;
         max-width: 1080px;
         height: 610px;
-        padding: 78px 75px 72px 82px;
+        padding: 75px 25px;
     }
 
     .card .card--content {
@@ -389,13 +394,36 @@ footer {
 
     .card--content .card--text {
         width: 418px;
-        height: 456px;
+        height: 470px;
         z-index: 1;
-
-
         position: relative;
-
+        padding: 40px 110px 40px 40px;
     }
+
+
+
+    .card--text h2 {
+        font-size: var(--servFontSizeD);
+        line-height: 34px;
+        text-align: left;
+        font-weight: var(--navFontWeight);
+        margin: 0;
+    }
+
+    .card--text ul {
+        margin-top: 10px;
+        padding-left: 15px;
+    }
+
+    .card--text li {
+        font-size: var(--servLiFontSizeD);
+        font-weight: 400;
+        text-indent: -15px;
+        list-style: none;
+    }
+
+
+
 
     .card--slider, .title {
         display: none;
@@ -406,10 +434,8 @@ footer {
         flex-direction: column;
         justify-content: space-evenly;
         z-index: 2;
-
-
         position: absolute;
-        left: 418px;
+        left: 340px;
         top: 140px;
     }
 
@@ -435,4 +461,10 @@ footer {
         font-weight: 700;
     }
 
+}
+
+@media only screen and (min-width: 1080px) {
+    .desktop--container {
+        left: 410px;
+    }
 }
