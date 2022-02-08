@@ -32,7 +32,7 @@
     --servLiFontSizeM: 15px;
 
     --servFontSizeD: 28px;
-    --servLiFontSizeD: 18px;
+    --servLiFontSizeD: 20px;
 }
 
 
@@ -261,10 +261,6 @@ footer {
     height: 45px;
 }
 
-
-
-
-
 /* ==================== 
 ======= Utilidades ======
 =======================*/
@@ -284,6 +280,7 @@ footer {
     /* ==================== 
     ======= NavBar ======
     =======================*/
+
     .logo {
         width: 218px;
         height: 74px;
@@ -334,7 +331,7 @@ footer {
         height: 95px !important;
         justify-content: flex-end !important;
         align-items: flex-end;
-        padding-right: 62px;
+        padding-right: 32px;
     }
 
     .mobileDrop {
@@ -349,10 +346,21 @@ footer {
         background-color: var(--backgroundColor1) !important;
     }
 
+    #seg--drop {
+        width: 540px !important;
+    }
+
     .dropdown-menu li {
         width: 87%;
-        margin-left: 37px;
+        margin: 0 0 0 37px !important;
+        border-bottom: 0.5px solid #c4c4c4 !important;
     }
+
+
+    .dropdown-menu li:last-child {
+        border: none !important;
+    }
+
     .dropdown-menu li a:hover {
         background-color: #2fd159;
     }
@@ -360,20 +368,15 @@ footer {
     .dropdown-item {
         color: var(--colorFont) !important;
         font-size: var(--navTextSizeD);
-        padding: 25px 37px 25px 0 !important;
-        border-bottom: 0.5px solid #c4c4c4 !important;
+        padding: 25px 60px 25px 0 !important;
+        margin: 0;
     }
 
     #lastDrop {
         border: none !important;
     }
 
-    
-
-
-
     /* ===== desktop images ===== */
-
 
     main .card {
 
@@ -393,14 +396,12 @@ footer {
     }
 
     .card--content .card--text {
-        width: 418px;
+        width: 410px;
         height: 470px;
         z-index: 1;
         position: relative;
-        padding: 40px 110px 40px 40px;
+        padding: 40px 100px 40px 40px;
     }
-
-
 
     .card--text h2 {
         font-size: var(--servFontSizeD);
@@ -418,12 +419,10 @@ footer {
     .card--text li {
         font-size: var(--servLiFontSizeD);
         font-weight: 400;
+        line-height: 24px;
         text-indent: -15px;
         list-style: none;
     }
-
-
-
 
     .card--slider, .title {
         display: none;
@@ -463,8 +462,14 @@ footer {
 
 }
 
+
+
 @media only screen and (min-width: 1080px) {
     .desktop--container {
         left: 410px;
+    }
+
+    #seg--drop {
+        width: auto !important;
     }
 }
