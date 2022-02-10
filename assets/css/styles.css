@@ -1214,6 +1214,7 @@ aside {
         gap: 12px;
         min-height: 197px;
         height: 350px;
+        width:100%;
     }
 
     .mapa-graf {
