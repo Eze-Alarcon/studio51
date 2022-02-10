@@ -1,20 +1,3 @@
-/* 
-    Este CSS se organiza de la siguiente manera::after
-    Subpages general
-
-        grafico.html
-
-        impresion.html
-
-        insumos-viniles.html
-
-        promocionales.html
-
-        serigrafia.html
-
-        stickers.html
-*/
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 /* ===================== 
@@ -65,6 +48,8 @@ body {
     display: flex;
     flex-direction: column;
     background-color: var(--backgroundColor2) !important;
+    z-index: 0;
+    position: relative;
 }
 
 
@@ -80,6 +65,7 @@ body {
 .navbar {
     background-color: var(--backgroundColor2);
     box-shadow: 2px 4px 10px #0d0d0d;
+    z-index: 1; /* el z-index es para que aparezca el box-shadow */
 }
 
 .navInvert {
@@ -108,10 +94,6 @@ body {
 
 .navbar-nav {
     padding-top: 30px;
-}
-
-#navbarSupportedContent {
-    height: 100vh !important;
 }
 
 .desktopDrop {
@@ -150,7 +132,24 @@ section h1 {
     color: var(--colorFont);
 }
 
+/* ============================== 
+========= ASIDE ========
+================================*/
 
+aside {
+    height: 65px;
+    width: 65px;
+    position: fixed;
+    top: 80vh;
+    right: 15px;
+    z-index: 1;
+}
+
+.wpp {
+    width: 100%;
+    height: 100%;
+    background-image: url(../../images/logos/whatsappLogo.svg);
+}
 
 
 /* ============================== 
