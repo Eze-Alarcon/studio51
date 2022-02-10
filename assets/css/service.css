@@ -52,16 +52,23 @@
 
 body {
     width: 100%;
-    height: 100%;
-    background-color: var(--backgroundColor1) !important;
+    height: auto;
+    min-height: 100vh;
+    background-color: var(--backgroundColor1) !important; /* !important para sobreescribir estilos de reboot.scss */
     z-index: 0;
-    /* !important para sobreescribir estilos de reboot.scss */
 }
 
 /* ==================== 
 ======= Header ======
 =======================*/
 
+header {
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
 
 /* ==================== 
 ======= NavBar ======
@@ -131,7 +138,7 @@ main .title {
     font-style: normal;
     line-height: 32px;
     width: 100%;
-    margin-bottom: 36px;
+    margin: 60px 0 36px;
     height: 32px;
     text-align: center;
 }
@@ -222,6 +229,12 @@ main .card {
     border-radius: 10px;
     margin: 23px calc(50% - 75px) 20px;
     box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card--content a {
+    width: 150px;
+    height: 36px;
+    text-decoration: none;
 }
 
 
@@ -499,6 +512,10 @@ aside {
 
     /* ===== desktop images ===== */
 
+    main {
+        margin-top: 95px;
+    }
+
     main .card {
         margin: 102px 0;
         z-index: 0;
@@ -642,14 +659,24 @@ aside {
         background-image: url(../../images/servicios/insumos-3.png)
     }
 
-    .card--content .card--button {
+    .card--content a {
         height: 48px;
         width: 200px;
-        margin: 19px 0 0;
-        align-self: flex-end;
-        font-size: var(--btnTextSizeD);
+        margin: 23px 0 0;
         font-weight: 700;
+        font-size: var(--btnTextSizeD);
+        align-self: flex-end;
     }
+    
+    .card--content .card--button {
+        height: 100%;
+        width: 100%;
+        font-size: inherit;
+        font-weight: inherit;
+        margin: 0;
+    }
+
+
 
     .paleta {
         display: flex;
@@ -660,7 +687,7 @@ aside {
 
     .paleta a {
         width: 216px;
-        height: 41px;
+        height: 48px;
         color: var(--activeColorFont);
         text-decoration: none;
         font-size: var(--btnTextSizeD);
