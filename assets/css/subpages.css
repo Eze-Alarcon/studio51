@@ -1,0 +1,187 @@
+/* 
+    Este CSS se organiza de la siguiente manera::after
+    Subpages general
+
+        grafico.html
+
+        impresion.html
+
+        insumos-viniles.html
+
+        promocionales.html
+
+        serigrafia.html
+
+        stickers.html
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+/* ===================== 
+======= VARIABLES ======
+======================== */
+
+:root {
+    --backgroundColor1: #1f2023;
+    --backgroundColor2: #27282d; /*TAMBIEN USADO EN NAVBAR*/
+    --backgroundColor3: #19191b;
+    --backgroundColor4: #171718;
+    --colorFont: #ffffff;
+    --activeColorFont: #2fd159; /*TAMBIEN USADO EN EL TITULO DE LAS SECCIONES*/
+    --buttonColor: #2fd159;
+    --whatsappColor: #2fd159;
+
+    --mainFont: "Montserrat", sans-serif;
+    --fontWeight: 800;
+    --titleSizeD: 64px;
+    --titleSizeM: 30px;
+    --sectionTitleSizeD: 48px;
+    --sectionTitleSizeM: 26px;
+    --textSizeD: 25px;
+    --textSizeM: 16px;
+    --btnTextSizeD: 18px;
+    --btnTextSizeM: 14px;
+    --navTextSizeD: 20px;
+    --navTextSizeM: 22px;
+    --navFontWeight: 600;
+}
+
+/* ==================== 
+======= GLOBALS ======
+=======================*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--mainFont);
+    text-decoration: none;
+}
+
+body {
+    width: 100vw;
+    height: auto;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--backgroundColor2) !important;
+}
+
+
+/* ==================== 
+======= NavBar ======
+=======================*/
+
+.logo {
+    width: 102px;
+    height: 34px;
+}
+
+.navbar {
+    background-color: var(--backgroundColor2);
+    box-shadow: 2px 4px 10px #0d0d0d;
+}
+
+.navInvert {
+    flex-direction: row-reverse !important; /* Puse el !important para que tenga en cuenta esto en vez del de bootstrap*/
+}
+
+.navbar-toggler {
+    border: none !important;
+}
+
+.navbar-toggler-icon {
+    width: 24px !important;
+    height: 24px !important;
+}
+
+.activeLink > a {
+    color: var(--activeColorFont) !important;
+}
+
+.nav-item {
+    font-size: var(--navTextSizeM);
+    font-weight: var(--navFontWeight);
+    padding-left: 25px;
+    padding-bottom: 39.86px;
+}
+
+.navbar-nav {
+    padding-top: 30px;
+}
+
+#navbarSupportedContent {
+    height: 100vh !important;
+}
+
+.desktopDrop {
+    display: none;
+}
+
+/* ==================== 
+========= MAIN ========
+=======================*/
+
+
+main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 70px 20px 51px;
+}
+
+section {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+section h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: var(--colorFont);
+}
+
+
+
+
+/* ============================== 
+========= FOOTER ========
+================================*/
+
+.footer-home {
+    background-color: var(--backgroundColor2);
+    box-shadow: 2px -4px 16px #0d0d0d;
+}
+
+.footer-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 14px 21px;
+}
+
+.copyright {
+    margin: 0;
+    color: #c4c4c4;
+    font-size: var(--textSizeM);
+    font-weight: 500;
+}
+
+.footer-brand {
+    width: 132px;
+    height: 45px;
+}
+
+.footer-logo {
+    width: 132px;
+    height: 45px;
+}
