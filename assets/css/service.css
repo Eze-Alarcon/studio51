@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 /* ===================== 
 ======= VARIABLES ======
 ======================== */
@@ -223,14 +224,84 @@ main .card {
     box-shadow: 8px 8px 4px rgba(0, 0, 0, 0.25);
 }
 
+
+#diseño1 {
+        background-image: url(../../images/servicios/diseño-1.png)
+    }
+
+    #diseño2 {
+        background-image: url(../../images/servicios/diseño-2.png)
+    }
+
+    #diseño3 {
+        background-image: url(../../images/servicios/diseño-3.png)
+    }
+
+    #impresion1 {
+        background-image: url(../../images/servicios/impresion-1.png)
+    }
+
+    #impresion2 {
+        background-image: url(../../images/servicios/impresion-2.png)
+    }
+
+    #impresion3 {
+        background-image: url(../../images/servicios/impresion-3.png)
+    }
+
+    #sticker1 {
+        background-image: url(../../images/servicios/sticker-1.png)
+    }
+
+    #sticker2 {
+        background-image: url(../../images/servicios/sticker-2.png)
+    }
+
+    #sticker3 {
+        background-image: url(../../images/servicios/sticker-3.png)
+    }
+    
+    #serigrafia1 {
+        background-image: url(../../images/servicios/serifa-1.png)
+    }
+    
+    #serigrafia2 {
+        background-image: url(../../images/servicios/serifa-2.png)
+    }
+
+    #serigrafia3 {
+        background-image: url(../../images/servicios/serifa-3.png)
+    }
+
+    #articulos1 {
+        background-image: url(../../images/servicios/articulos-1.png)
+    }
+
+    #articulos2 {
+        background-image: url(../../images/servicios/articulos-2.png)
+    }
+
+    #articulos3 {
+        background-image: url(../../images/servicios/articulos-3.png)
+    }
+
+    #insumos1 {
+        background-image: url(../../images/servicios/insumos-1.png)
+    }
+
+    #insumos2 {
+        background-image: url(../../images/servicios/insumos-2.png)
+    }
+
+    #insumos3 {
+        background-image: url(../../images/servicios/insumos-3.png)
+    }
+
+
+
 /* ==================== 
 ======= Footer ======
 =======================*/
-
-footer {
-    display: none !important;
-}
-
 
 .footer {
     background-color: var(--backgroundColor2);
@@ -277,6 +348,36 @@ footer {
 
 
 @media only screen and (min-width: 992px) {
+
+
+    body {
+        background-image: linear-gradient(
+            var(--backgroundColor1) 0px,
+            var(--backgroundColor1) 713px, 
+
+            var(--backgroundColor4) 713px,
+            var(--backgroundColor4) 1313px,
+
+            var(--backgroundColor1) 1313px,
+            var(--backgroundColor1) 2710px,
+
+            
+            var(--backgroundColor4) 2710px,
+            var(--backgroundColor4) 2910px, 
+
+
+            var(--backgroundColor1) 2910px,
+            var(--backgroundColor1) 3940px,
+
+
+            var(--backgroundColor4) 3940px,
+            var(--backgroundColor4) 4400px,
+
+            var(--backgroundColor1) 4400px
+            );
+            
+    }
+
     /* ==================== 
     ======= NavBar ======
     =======================*/
@@ -379,9 +480,7 @@ footer {
     /* ===== desktop images ===== */
 
     main .card {
-
-        /* borrar luego */
-        margin-top: 130px;
+        margin: 102px 0;
         z-index: 0;
         width: 100%;
         max-width: 1080px;
@@ -448,7 +547,79 @@ footer {
     .img--sim {
         height: 320px;
         width: 190px;
-        background-color: red;
+    }
+
+
+    #diseño1 {
+        background-image: url(../../images/servicios/diseño-1.png)
+    }
+
+    #diseño2 {
+        background-image: url(../../images/servicios/diseño-2.png)
+    }
+
+    #diseño3 {
+        background-image: url(../../images/servicios/diseño-3.png)
+    }
+
+    #impresion1 {
+        background-image: url(../../images/servicios/impresion-1.png)
+    }
+
+    #impresion2 {
+        background-image: url(../../images/servicios/impresion-2.png)
+    }
+
+    #impresion3 {
+        background-image: url(../../images/servicios/impresion-3.png)
+    }
+
+    #sticker1 {
+        background-image: url(../../images/servicios/sticker-1.png)
+    }
+
+    #sticker2 {
+        background-image: url(../../images/servicios/sticker-2.png)
+    }
+
+    #sticker3 {
+        background-image: url(../../images/servicios/sticker-3.png)
+    }
+    
+    #serigrafia1 {
+        background-image: url(../../images/servicios/serifa-1.png)
+    }
+    
+    #serigrafia2 {
+        background-image: url(../../images/servicios/serifa-2.png)
+    }
+
+    #serigrafia3 {
+        background-image: url(../../images/servicios/serifa-3.png)
+    }
+
+    #articulos1 {
+        background-image: url(../../images/servicios/articulos-1.png)
+    }
+
+    #articulos2 {
+        background-image: url(../../images/servicios/articulos-2.png)
+    }
+
+    #articulos3 {
+        background-image: url(../../images/servicios/articulos-3.png)
+    }
+
+    #insumos1 {
+        background-image: url(../../images/servicios/insumos-1.png)
+    }
+
+    #insumos2 {
+        background-image: url(../../images/servicios/insumos-2.png)
+    }
+
+    #insumos3 {
+        background-image: url(../../images/servicios/insumos-3.png)
     }
 
     .card--content .card--button {
@@ -458,6 +629,57 @@ footer {
         align-self: flex-end;
         font-size: var(--btnTextSizeD);
         font-weight: 700;
+    }
+
+    .paleta {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 46px;
+    }
+
+    .paleta a {
+        width: 216px;
+        height: 41px;
+        color: var(--activeColorFont);
+        text-decoration: none;
+        font-size: var(--btnTextSizeD);
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .paleta a:active,
+    .paleta a:hover {
+        color: var(--activeColorFont);
+    }
+
+    .footer-home {
+        background-color: var(--backgroundColor2);
+        box-shadow: 2px -4px 16px #0d0d0d;
+    }
+
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .copyright {
+        width: 60%;
+        margin: 0;
+        color: #c4c4c4;
+        font-size: var(--textSizeM);
+        font-weight: 500;
+    }
+
+    .footer-brand {
+        width: 132px;
+        height: 45px;
+    }
+
+    .footer-logo {
+        width: 132px;
+        height: 45px;
     }
 
 }
