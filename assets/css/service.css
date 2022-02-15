@@ -336,7 +336,7 @@ aside {
 ======= Footer ======
 =======================*/
 
-.footer {
+footer {
     background-color: var(--backgroundColor2);
     box-shadow: 2px -4px 16px #0d0d0d;
 }

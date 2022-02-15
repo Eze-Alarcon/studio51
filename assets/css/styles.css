@@ -77,7 +77,7 @@ header {
     position: fixed;
     right: 0;
     left: 0;
-    z-index: 1;
+    z-index: 9999;
 }
 
 /* ==================== 
@@ -1387,73 +1387,73 @@ aside {
 
     .gridItem-1-cat1 {
         grid-area: 1 / 1 / 3 / 3;
-        background-image: url("../../images/subportfolio/grafico/IMG_20220107_171820083.jpg");
+        background-image: url("../../images/subportfolio-desktop/grafico/IMG_20220107_171820083.jpg");
         background-size: cover;
     }
     .gridItem-2-cat1 {
         grid-area: 1 / 3 / 2 / 4;
-        background-image: url("../../images/subportfolio/grafico/tripticos .jpg");
+        background-image: url("../../images/subportfolio-desktop/grafico/tripticos .jpg");
         background-size: cover;
     }
     .gridItem-3-cat1 {
         grid-area: 2 / 3 / 3 / 4;
-        background-image: url("../../images/subportfolio/grafico/2.jpg");
+        background-image: url("../../images/subportfolio-desktop/grafico/2.jpg");
         background-size: cover;
     }
     .gridItem-4-cat1 {
         grid-area: 1 / 4 / 2 / 6;
-        background-image: url("../../images/subportfolio/grafico/IMG_20210609_192929214.jpg");
+        background-image: url("../../images/subportfolio-desktop/grafico/IMG_20210609_192929214.jpg");
         background-size: cover;
         background-position-y: bottom -50px;
     }
     .gridItem-5-cat1 {
         grid-area: 3 / 1 / 4 / 2;
-        background-image: url("../../images/subportfolio/grafico/1.jpg");
+        background-image: url("../../images/subportfolio-desktop/grafico/1.jpg");
         background-size: cover;
     }
     .gridItem-6-cat1 {
         grid-area: 3 / 2 / 4 / 4;
-        background-image: url("../../images/subportfolio/grafico/servi mandados.jpg");
+        background-image: url("../../images/subportfolio-desktop/grafico/servi mandados.jpg");
         background-size: cover;
     }
     .gridItem-7-cat1 {
         grid-area: 2 / 4 / 4 / 5;
-        background-image: url("../../images/subportfolio/grafico/MENU MADELEINE.jpg");
+        background-image: url("../../images/subportfolio-desktop/grafico/MENU MADELEINE.jpg");
         background-size: cover;
     }
     .gridItem-8-cat1 {
         grid-area: 2 / 5 / 3 / 6;
-        background-image: url("../../images/subportfolio/grafico/PAQUETE.jpg");
+        background-image: url("../../images/subportfolio-desktop/grafico/PAQUETE.jpg");
         background-size: cover;
     }
     .gridItem-9-cat1 {
         grid-area: 3 / 5 / 4 / 6;
-        background-image: url("../../images/subportfolio/grafico/tab1.jpg");
+        background-image: url("../../images/subportfolio-desktop/grafico/tab1.jpg");
         background-size: cover;
     }
     .gridItem-10-cat1 {
         grid-area: 2 / 6 / 3 / 8;
-        background-image: url("../../images/subportfolio/grafico/volantes cesar lozano modificados.jpg");
+        background-image: url("../../images/subportfolio-desktop/grafico/volantes cesar lozano modificados.jpg");
         background-size: cover;
     }
     .gridItem-11-cat1 {
         grid-area: 1 / 6 / 2 / 7;
-        background-image: url("../../images/subportfolio/grafico/Carnet de citas.jpg");
+        background-image: url("../../images/subportfolio-desktop/grafico/Carnet de citas.jpg");
         background-size: cover;
     }
     .gridItem-12-cat1 {
         grid-area: 1 / 7 / 2 / 8;
-        background-image: url("../../images/subportfolio/grafico/volantes y tarjetas.jpg");
+        background-image: url("../../images/subportfolio-desktop/grafico/volantes y tarjetas.jpg");
         background-size: cover;
     }
     .gridItem-13-cat1 {
         grid-area: 3 / 6 / 4 / 7;
-        background-image: url("../../images/subportfolio/grafico/IMG_20210709_184610442_2.jpg");
+        background-image: url("../../images/subportfolio-desktop/grafico/IMG_20210709_184610442_2.jpg");
         background-size: cover;
     }
     .gridItem-14-cat1 {
         grid-area: 3 / 7 / 4 / 8;
-        background-image: url("../../images/subportfolio/grafico/IMG_20211218_153033808.jpg");
+        background-image: url("../../images/subportfolio-desktop/grafico/IMG_20211218_153033808.jpg");
         background-size: cover;
     }
 
@@ -1542,108 +1542,108 @@ aside {
 
     .gridItem-1-cat2 {
         grid-area: 1 / 1 / 3 / 2;
-        background-image: url("../../images/subportfolio/impresion-hd/IMG_20210625_165550222.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/IMG_20210625_165550222.jpg");
         background-size: cover;
     }
     .gridItem-2-cat2 {
         grid-area: 1 / 2 / 3 / 3;
-        background-image: url("../../images/subportfolio/impresion-hd/117181714_2709814582597257_540569883280932523_o.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/117181714_2709814582597257_540569883280932523_o.jpg");
         background-size: cover;
         background-position-x: left -90px;
     }
     .gridItem-3-cat2 {
         grid-area: 3 / 1 / 4 / 3;
-        background-image: url("../../images/subportfolio/impresion-hd/1.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/1.jpg");
         background-size: cover;
     }
     .gridItem-4-cat2 {
         grid-area: 1 / 3 / 2 / 4;
-        background-image: url("../../images/subportfolio/impresion-hd/colegio.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/colegio.jpg");
         background-size: cover;
         background-position-x: left -40px;
     }
     .gridItem-5-cat2 {
         grid-area: 2 / 3 / 4 / 4;
-        background-image: url("../../images/subportfolio/impresion-hd/96246934_2632553486990034_7655329049597706240_n.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/96246934_2632553486990034_7655329049597706240_n.jpg");
         background-size: cover;
     }
     .gridItem-6-cat2 {
         grid-area: 1 / 4 / 2 / 5;
-        background-image: url("../../images/subportfolio/impresion-hd/IMG_20191030_162909447_HDR.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/IMG_20191030_162909447_HDR.jpg");
         background-size: cover;
         background-position-x: left -70px;
     }
     .gridItem-7-cat2 {
         grid-area: 2 / 4 / 4 / 6;
-        background-image: url("../../images/subportfolio/impresion-hd/IMG_20200227_184513171_HDR.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/IMG_20200227_184513171_HDR.jpg");
         background-size: cover;
     }
     .gridItem-8-cat2 {
         grid-area: 1 / 5 / 2 / 6;
-        background-image: url("../../images/subportfolio/impresion-hd/IMG_20200903_165917510.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/IMG_20200903_165917510.jpg");
         background-size: cover;
     }
     .gridItem-9-cat2 {
         grid-area: 1 / 6 / 2 / 8;
-        background-image: url("../../images/subportfolio/impresion-hd/IMG_20210505_170749142.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/IMG_20210505_170749142.jpg");
         background-size: cover;
     }
     .gridItem-10-cat2 {
         grid-area: 2 / 6 / 3 / 7;
-        background-image: url("../../images/subportfolio/impresion-hd/IMG_20210829_194953939_HDR.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/IMG_20210829_194953939_HDR.jpg");
         background-size: cover;
         background-position-y: top 110px;
     }
     .gridItem-11-cat2 {
         grid-area: 2 / 7 / 3 / 8;
-        background-image: url("../../images/subportfolio/impresion-hd/IMG_20210910_180241918_HDR.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/IMG_20210910_180241918_HDR.jpg");
         background-size: cover;
     }
 
     .gridItem-12-cat2 {
         grid-area: 3 / 6 / 4 / 7;
-        background-image: url("../../images/subportfolio/impresion-hd/IMG_20211214_134939563.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/IMG_20211214_134939563.jpg");
         background-size: cover;
     }
     .gridItem-13-cat2 {
         grid-area: 3 / 7 / 4 / 8;
-        background-image: url("../../images/subportfolio/impresion-hd/impresion-bunker.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/impresion-bunker.jpg");
         background-size: cover;
     }
     .gridItem-14-cat2 {
         grid-area: 1 / 8 / 2 / 9;
-        background-image: url("../../images/subportfolio/impresion-hd/impresion-cesar-lozano.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/impresion-cesar-lozano.jpg");
         background-size: cover;
     }
     .gridItem-15-cat2 {
         grid-area: 1 / 9 / 3 / 10;
-        background-image: url("../../images/subportfolio/impresion-hd/impresion-gran-formato.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/impresion-gran-formato.jpg");
         background-size: cover;
     }
     .gridItem-16-cat2 {
         grid-area: 2 / 8 / 4 / 9;
-        background-image: url("../../images/subportfolio/impresion-hd/lona ibero modificada.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/lona ibero modificada.jpg");
         background-size: cover;
         background-position-x: left 140px;
     }
     .gridItem-17-cat2 {
         grid-area: 3 / 9 / 4 / 10;
-        background-image: url("../../images/subportfolio/impresion-hd/TELA IMPRESA.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/TELA IMPRESA.jpg");
         background-size: cover;
     }
     .gridItem-18-cat2 {
         grid-area: 1 / 10 / 2 / 11;
-        background-image: url("../../images/subportfolio/impresion-hd/WhatsApp Image 2021-07-13 at 8.38.49 PM.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/WhatsApp Image 2021-07-13 at 8.38.49 PM.jpg");
         background-size: cover;
     }
     .gridItem-19-cat2 {
         grid-area: 2 / 10 / 3 / 11;
-        background-image: url("../../images/subportfolio/impresion-hd/WhatsApp Image 2021-12-25 at 19.20.57.jpg");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/WhatsApp Image 2021-12-25 at 19.20.57.jpg");
         background-size: cover;
     }
     .gridItem-20-cat2 {
         grid-area: 3 / 10 / 4 / 11;
-        background-image: url("../../images/subportfolio/impresion-hd/IMG_20200822_175911183");
+        background-image: url("../../images/subportfolio-desktop/impresion-hd/IMG_20200822_175911183");
         background-size: cover;
     }
 
@@ -1702,73 +1702,73 @@ aside {
 
     .gridItem-1-cat3 {
         grid-area: 1 / 1 / 3 / 2;
-        background-image: url("../../images/subportfolio/stickers/2222.jpg");
+        background-image: url("../../images/subportfolio-desktop/stickers/2222.jpg");
         background-size: cover;
     }
     .gridItem-2-cat3 {
         grid-area: 1 / 2 / 3 / 4;
-        background-image: url("../../images/subportfolio/stickers/IMG_20210910_190629320_HDR.jpg");
+        background-image: url("../../images/subportfolio-desktop/stickers/IMG_20210910_190629320_HDR.jpg");
         background-size: cover;
     }
     .gridItem-3-cat3 {
         grid-area: 3 / 1 / 4 / 3;
-        background-image: url("../../images/subportfolio/stickers/122333558_3647770861942200_1278085205417415492_n.jpg");
+        background-image: url("../../images/subportfolio-desktop/stickers/122333558_3647770861942200_1278085205417415492_n.jpg");
         background-size: cover;
     }
     .gridItem-4-cat3 {
         grid-area: 3 / 3 / 4 / 4;
-        background-image: url("../../images/subportfolio/stickers/cafe.jpg");
+        background-image: url("../../images/subportfolio-desktop/stickers/cafe.jpg");
         background-size: cover;
     }
     .gridItem-5-cat3 {
         grid-area: 1 / 4 / 4 / 5;
-        background-image: url("../../images/subportfolio/stickers/IMG_20210423_184503616.jpg");
+        background-image: url("../../images/subportfolio-desktop/stickers/IMG_20210423_184503616.jpg");
         background-size: cover;
         background-position-x: left -40px;
     }
     .gridItem-6-cat3 {
         grid-area: 1 / 5 / 2 / 6;
-        background-image: url("../../images/subportfolio/stickers/IMG_20210429_183518442.jpg");
+        background-image: url("../../images/subportfolio-desktop/stickers/IMG_20210429_183518442.jpg");
         background-size: cover;
     }
     .gridItem-7-cat3 {
         grid-area: 2 / 5 / 3 / 7;
-        background-image: url("../../images/subportfolio/stickers/214202833_4397275920325020_994512191875189805_n.jpg");
+        background-image: url("../../images/subportfolio-desktop/stickers/214202833_4397275920325020_994512191875189805_n.jpg");
         background-size: cover;
     }
     .gridItem-8-cat3 {
         grid-area: 3 / 5 / 4 / 6;
-        background-image: url("../../images/subportfolio/stickers/IMG_20210616_183557473.jpg");
+        background-image: url("../../images/subportfolio-desktop/stickers/IMG_20210616_183557473.jpg");
         background-size: cover;
     }
     .gridItem-9-cat3 {
         grid-area: 1 / 6 / 2 / 8;
-        background-image: url("../../images/subportfolio/stickers/IMG_20210924_174308959.jpg");
+        background-image: url("../../images/subportfolio-desktop/stickers/IMG_20210924_174308959.jpg");
         background-size: cover;
     }
     .gridItem-10-cat3 {
         grid-area: 2 / 7 / 4 / 8;
-        background-image: url("../../images/subportfolio/stickers/picos.jpg");
+        background-image: url("../../images/subportfolio-desktop/stickers/picos.jpg");
         background-size: cover;
     }
     .gridItem-11-cat3 {
         grid-area: 3 / 6 / 4 / 7;
-        background-image: url("../../images/subportfolio/stickers/Stickers.jpg");
+        background-image: url("../../images/subportfolio-desktop/stickers/Stickers.jpg");
         background-size: cover;
     }
     .gridItem-12-cat3 {
         grid-area: 2 / 8 / 4 / 10;
-        background-image: url("../../images/subportfolio/stickers/vaquita.jpg");
+        background-image: url("../../images/subportfolio-desktop/stickers/vaquita.jpg");
         background-size: cover;
     }
     .gridItem-13-cat3 {
         grid-area: 1 / 8 / 2 / 9;
-        background-image: url("../../images/subportfolio/stickers/vinil transparente.jpg");
+        background-image: url("../../images/subportfolio-desktop/stickers/vinil transparente.jpg");
         background-size: cover;
     }
     .gridItem-14-cat3 {
         grid-area: 1 / 9 / 2 / 10;
-        background-image: url("../../images/subportfolio/stickers/el saudi.jpg");
+        background-image: url("../../images/subportfolio-desktop/stickers/el saudi.jpg");
         background-size: cover;
     }
 
@@ -1813,77 +1813,77 @@ aside {
 
     .gridItem-1-cat4 {
         grid-area: 1 / 1 / 3 / 3;
-        background-image: url("../../images/subportfolio/serigrafia/bimbo.jpg");
+        background-image: url("../../images/subportfolio-desktop/serigrafia/bimbo.jpg");
         background-size: cover;
     }
     .gridItem-2-cat4 {
         grid-area: 1 / 3 / 3 / 4;
-        background-image: url("../../images/subportfolio/serigrafia/IMG_20210619_195344286.jpg");
+        background-image: url("../../images/subportfolio-desktop/serigrafia/IMG_20210619_195344286.jpg");
         background-size: cover;
     }
     .gridItem-3-cat4 {
         grid-area: 3 / 1 / 4 / 2;
-        background-image: url("../../images/subportfolio/serigrafia/ni-una-menos.jpg");
+        background-image: url("../../images/subportfolio-desktop/serigrafia/ni-una-menos.jpg");
         background-size: cover;
     }
     .gridItem-4-cat4 {
         grid-area: 3 / 2 / 4 / 4;
-        background-image: url("../../images/subportfolio/serigrafia/IMG_20191116_140507767_HDR.jpg");
+        background-image: url("../../images/subportfolio-desktop/serigrafia/IMG_20191116_140507767_HDR.jpg");
         background-size: cover;
     }
     .gridItem-5-cat4 {
         grid-area: 2 / 4 / 4 / 5;
-        background-image: url("../../images/subportfolio/serigrafia/IMG_20210824_191007629_HDR.jpg");
+        background-image: url("../../images/subportfolio-desktop/serigrafia/IMG_20210824_191007629_HDR.jpg");
         background-size: cover;
     }
     .gridItem-6-cat4 {
         grid-area: 2 / 5 / 4 / 6;
-        background-image: url("../../images/subportfolio/serigrafia/IMG_20220115_113929330.jpg");
+        background-image: url("../../images/subportfolio-desktop/serigrafia/IMG_20220115_113929330.jpg");
         background-size: cover;
     }
     .gridItem-7-cat4 {
         grid-area: 1 / 4 / 2 / 6;
-        background-image: url("../../images/subportfolio/serigrafia/mood.jpg");
+        background-image: url("../../images/subportfolio-desktop/serigrafia/mood.jpg");
         background-size: cover;
     }
     .gridItem-8-cat4 {
         grid-area: 1 / 6 / 3 / 7;
-        background-image: url("../../images/subportfolio/serigrafia/IMG_20220115_145135973.jpg");
+        background-image: url("../../images/subportfolio-desktop/serigrafia/IMG_20220115_145135973.jpg");
         background-size: cover;
     }
     .gridItem-9-cat4 {
         grid-area: 3 / 6 / 4 / 7;
-        background-image: url("../../images/subportfolio/serigrafia/mameluco .jpg");
+        background-image: url("../../images/subportfolio-desktop/serigrafia/mameluco .jpg");
         background-size: cover;
     }
     .gridItem-10-cat4 {
         grid-area: 2 / 7 / 3 / 8;
-        background-image: url("../../images/subportfolio/serigrafia/playeras.jpg");
+        background-image: url("../../images/subportfolio-desktop/serigrafia/playeras.jpg");
         background-size: cover;
     }
     .gridItem-11-cat4 {
         grid-area: 1 / 7 / 2 / 8;
-        background-image: url("../../images/subportfolio/serigrafia/32.jpg");
+        background-image: url("../../images/subportfolio-desktop/serigrafia/32.jpg");
         background-size: cover;
     }
     .gridItem-12-cat4 {
         grid-area: 1 / 8 / 2 / 9;
-        background-image: url("../../images/subportfolio/serigrafia/IMG_20210609_193300445.jpg");
+        background-image: url("../../images/subportfolio-desktop/serigrafia/IMG_20210609_193300445.jpg");
         background-size: cover;
     }
     .gridItem-13-cat4 {
         grid-area: 3 / 7 / 4 / 9;
-        background-image: url("../../images/subportfolio/serigrafia/dtf.jpg");
+        background-image: url("../../images/subportfolio-desktop/serigrafia/dtf.jpg");
         background-size: cover;
     }
     .gridItem-14-cat4 {
         grid-area: 2 / 8 / 3 / 9;
-        background-image: url("../../images/subportfolio/serigrafia/WhatsApp Image 2021-12-25 at 19.29.00 (6).jpeg");
+        background-image: url("../../images/subportfolio-desktop/serigrafia/WhatsApp Image 2021-12-25 at 19.29.00 (6).jpeg");
         background-size: cover;
     }
     .gridItem-15-cat4 {
         grid-area: 1 / 9 / 4 / 10;
-        background-image: url("../../images/subportfolio/serigrafia/IMG_20220111_175144396.jpg");
+        background-image: url("../../images/subportfolio-desktop/serigrafia/IMG_20220111_175144396.jpg");
         background-size: cover;
     }
 
@@ -1903,140 +1903,140 @@ aside {
         
     .gridItem-1-cat5 { 
         grid-area: 1 / 1 / 3 / 3; 
-        background-image: url("../../images/subportfolio/promocionales/PLUMASVERDES.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/PLUMASVERDES.jpg");
         background-size: cover;
     }
     .gridItem-2-cat5 { 
         grid-area: 3 / 1 / 4 / 2; 
-        background-image: url("../../images/subportfolio/promocionales/IMG_20190814_204156939.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/IMG_20190814_204156939.jpg");
         background-size: cover;
     }
     .gridItem-3-cat5 { 
         grid-area: 3 / 2 / 4 / 4; 
-        background-image: url("../../images/subportfolio/promocionales/WhatsApp Image 2021-08-10 at 8.37.43 PM.jpeg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/WhatsApp Image 2021-08-10 at 8.37.43 PM.jpeg");
         background-size: cover;
     }
     .gridItem-4-cat5 { 
         grid-area: 2 / 3 / 3 / 4; 
-        background-image: url("../../images/subportfolio/promocionales/121635814_2768542070057841_5609653264294786088_o (1).jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/121635814_2768542070057841_5609653264294786088_o (1).jpg");
         background-size: cover;
     }
     .gridItem-5-cat5 { 
         grid-area: 1 / 3 / 2 / 4; 
-        background-image: url("../../images/subportfolio/promocionales/124826498_3701569093229043_3027284605951391386_o.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/124826498_3701569093229043_3027284605951391386_o.jpg");
         background-size: cover;
     }
     .gridItem-6-cat5 { 
         grid-area: 1 / 4 / 2 / 6; 
-        background-image: url("../../images/subportfolio/promocionales/131567749_2823071861271528_602558689938918008_o.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/131567749_2823071861271528_602558689938918008_o.jpg");
         background-size: cover;
         
     }
     .gridItem-7-cat5 { 
         grid-area: 2 / 4 / 4 / 5; 
-        background-image: url("../../images/subportfolio/promocionales/154514580_3998474616871821_4779512380173525499_n.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/154514580_3998474616871821_4779512380173525499_n.jpg");
         background-size: cover;
         background-position-x: left -60px;
     }
     .gridItem-8-cat5 { 
         grid-area: 2 / 5 / 3 / 6; 
-        background-image: url("../../images/subportfolio/promocionales/among-us.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/among-us.jpg");
         background-size: cover;
     }
     .gridItem-9-cat5 { 
         grid-area: 3 / 5 / 4 / 6; 
-        background-image: url("../../images/subportfolio/promocionales/demostand corregido.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/demostand corregido.jpg");
         background-size: cover;
     }
     .gridItem-10-cat5 { 
         grid-area: 2 / 6 / 3 / 8; 
-        background-image: url("../../images/subportfolio/promocionales/gorras fiesta.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/gorras fiesta.jpg");
         background-size: cover;
         background-position-y: top -40px;
     }
     .gridItem-11-cat5 { 
         grid-area: 1 / 6 / 2 / 7; 
-        background-image: url("../../images/subportfolio/promocionales/BADBUNNY.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/BADBUNNY.jpg");
         background-size: cover;
         background-position-x: left -40px;
     }
     .gridItem-12-cat5 { 
         grid-area: 1 / 7 / 2 / 8; 
-        background-image: url("../../images/subportfolio/promocionales/IMG_20200424_145655499_HDR.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/IMG_20200424_145655499_HDR.jpg");
         background-size: cover;
     }
     .gridItem-13-cat5 { 
         grid-area: 3 / 6 / 4 / 7; 
-        background-image: url("../../images/subportfolio/promocionales/IMG_20200824_153822433.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/IMG_20200824_153822433.jpg");
         background-size: cover;
     }
     .gridItem-14-cat5 { 
         grid-area: 3 / 7 / 4 / 8; 
-        background-image: url("../../images/subportfolio/promocionales/IMG_20210802_183259180_HDR.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/IMG_20210802_183259180_HDR.jpg");
         background-size: cover;
         background-position-x: left -60px;
     }
     .gridItem-15-cat5 { 
         grid-area: 1 / 8 / 3 / 9; 
-        background-image: url("../../images/subportfolio/promocionales/IMG_20210426_133037224.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/IMG_20210426_133037224.jpg");
         background-size: cover;
         background-position-x: left -40px;
     }
     .gridItem-16-cat5 { 
         grid-area: 3 / 8 / 4 / 10;
-        background-image: url("../../images/subportfolio/promocionales/IMG_20211029_194329859_HDR.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/IMG_20211029_194329859_HDR.jpg");
         background-size: cover;
     }
     .gridItem-17-cat5 { 
         grid-area: 2 / 9 / 3 / 10; 
-        background-image: url("../../images/subportfolio/promocionales/IMG_20211029_194336913_HDR.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/IMG_20211029_194336913_HDR.jpg");
         background-size: cover;
     }
     .gridItem-18-cat5 { 
         grid-area: 1 / 9 / 2 / 10; 
-        background-image: url("../../images/subportfolio/promocionales/IMG_20211127_101328347.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/IMG_20211127_101328347.jpg");
         background-size: cover;
         background-position-x: left -40px;
     }
     .gridItem-19-cat5 { 
         grid-area: 1 / 10 / 2 / 11;
-        background-image: url("../../images/subportfolio/promocionales/IMG_20211210_145253673.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/IMG_20211210_145253673.jpg");
         background-size: cover;
         background-position-x: left -40px;
     }
     .gridItem-20-cat5 { 
         grid-area: 2 / 10 / 3 / 11; 
-        background-image: url("../../images/subportfolio/promocionales/IMG_20211218_143424023 (1).jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/IMG_20211218_143424023 (1).jpg");
         background-size: cover;
     }
     .gridItem-21-cat5 { 
         grid-area: 1 / 11 / 3 / 12; 
-        background-image: url("../../images/subportfolio/promocionales/pines.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/pines.jpg");
         background-size: cover;
     }
     .gridItem-22-cat5 { 
         grid-area: 3 / 11 / 4 / 12; 
-        background-image: url("../../images/subportfolio/promocionales/STAND .jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/STAND .jpg");
         background-size: cover;
     }
     .gridItem-23-cat5 { 
         grid-area: 3 / 10 / 4 / 11; 
-        background-image: url("../../images/subportfolio/promocionales/tazas marinela.jpg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/tazas marinela.jpg");
         background-size: cover;
     }
     .gridItem-24-cat5 { 
         grid-area: 1 / 12 / 2 / 13; 
-        background-image: url("../../images/subportfolio/promocionales/WhatsApp Image 2021-06-26 at 1.17.52 PM.jpeg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/WhatsApp Image 2021-06-26 at 1.17.52 PM.jpeg");
         background-size: cover;
     }
     .gridItem-25-cat5 { 
         grid-area: 2 / 12 / 3 / 13; 
-        background-image: url("../../images/subportfolio/promocionales/WhatsApp Image 2021-12-25 at 19.29.00 (19).jpeg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/WhatsApp Image 2021-12-25 at 19.29.00 (19).jpeg");
         background-size: cover;
     }
     .gridItem-26-cat5 { 
         grid-area: 3 / 12 / 4 / 13; 
-        background-image: url("../../images/subportfolio/promocionales/WhatsApp Image 2021-12-25 at 19.48.05 (4).jpeg");
+        background-image: url("../../images/subportfolio-desktop/promocionales/WhatsApp Image 2021-12-25 at 19.48.05 (4).jpeg");
         background-size: cover;
     } 
 
@@ -2091,148 +2091,148 @@ aside {
         
         .gridItem-2-cat6 { 
             grid-area: 1 / 2 / 3 / 3; 
-            background-image: url("../../images/subportfolio/insumos-viniles/D_NQ_NP_972311-MLM43517527017_092020-O.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/D_NQ_NP_972311-MLM43517527017_092020-O.jpg");
             background-size: cover;
         }
         .gridItem-1-cat6 { 
             grid-area: 1 / 1 / 3 / 2; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20211129_162803907.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20211129_162803907.jpg");
             background-size: cover;
         }
         .gridItem-3-cat6 { 
             grid-area: 3 / 1 / 4 / 2; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220111_172444729.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220111_172444729.jpg");
             background-size: cover;
         }
         .gridItem-4-cat6 { 
             grid-area: 3 / 2 / 4 / 4; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220111_172542719.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220111_172542719.jpg");
             background-size: cover;
         }
         .gridItem-5-cat6 { 
             grid-area: 1 / 3 / 2 / 4; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220111_172708515.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220111_172708515.jpg");
             background-size: cover;
         }
         .gridItem-6-cat6 { 
             grid-area: 2 / 3 / 3 / 4; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220111_172808970.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220111_172808970.jpg");
             background-size: cover;
         }
         .gridItem-7-cat6 { 
             grid-area: 1 / 4 / 2 / 5; 
-            background-image: url("../../images/subportfolio/insumos-viniles/tintas.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/tintas.jpg");
             background-size: cover;
         }
         .gridItem-8-cat6 { 
             grid-area: 1 / 5 / 2 / 6; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220111_174322860.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220111_174322860.jpg");
             background-size: cover;
         }
         .gridItem-9-cat6 { 
             grid-area: 3 / 4 / 4 / 7; 
-            background-image: url("../../images/subportfolio/insumos-viniles/tazas.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/tazas.jpg");
             background-size: cover;
             background-position-y: top -40px;
         }
         .gridItem-10-cat6 { 
             grid-area: 2 / 4 / 3 / 5; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220111_174537508.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220111_174537508.jpg");
             background-size: cover;
         }
         .gridItem-11-cat6 { 
             grid-area: 2 / 5 / 3 / 6; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_172821751.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220112_172821751.jpg");
             background-size: cover;
         }
         .gridItem-12-cat6 { 
             grid-area: 1 / 6 / 3 / 7; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_172923225.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220112_172923225.jpg");
             background-size: cover;
         }
         .gridItem-13-cat6 { 
             grid-area: 2 / 7 / 4 / 8; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_173004851.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220112_173004851.jpg");
             background-size: cover;
         }
         .gridItem-14-cat6 { 
             grid-area: 1 / 7 / 2 / 8; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_173117985.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220112_173117985.jpg");
             background-size: cover;
         }
         .gridItem-15-cat6 { 
             grid-area: 1 / 8 / 2 / 9; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_173154179.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220112_173154179.jpg");
             background-size: cover;
         }
         .gridItem-16-cat6 { 
             grid-area: 3 / 8 / 4 / 9; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_173419239.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220112_173419239.jpg");
             background-size: cover;
         }
         .gridItem-17-cat6 { 
             grid-area: 3 / 9 / 4 / 10; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_175751005.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220112_175751005.jpg");
             background-size: cover;
         }
         .gridItem-18-cat6 { 
             grid-area: 2 / 9 / 3 / 10; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220112_175759752.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220112_175759752.jpg");
             background-size: cover;
         }
         .gridItem-19-cat6 { 
             grid-area: 2 / 8 / 3 / 9; 
-            background-image: url("../../images/subportfolio/insumos-viniles/vinilo-plateado.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/vinilo-plateado.jpg");
             background-size: cover;
         }
         .gridItem-20-cat6 { 
             grid-area: 1 / 9 / 2 / 10; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220114_124324706.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220114_124324706.jpg");
             background-size: cover;
         }
         .gridItem-21-cat6 { 
             grid-area: 1 / 10 / 2 / 11; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220114_124455806.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220114_124455806.jpg");
             background-size: cover;
         }
         .gridItem-22-cat6 { 
             grid-area: 2 / 10 / 3 / 11; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220114_125027753.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220114_125027753.jpg");
             background-size: cover;
         }
         .gridItem-23-cat6 { 
             grid-area: 3 / 10 / 4 / 11; 
-            background-image: url("../../images/subportfolio/insumos-viniles/IMG_20220114_125209598.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/IMG_20220114_125209598.jpg");
             background-size: cover;
         }
         .gridItem-24-cat6 { 
             grid-area: 3 / 11 / 4 / 12; 
-            background-image: url("../../images/subportfolio/insumos-viniles/vinilo-azul-metalizado.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/vinilo-azul-metalizado.jpg");
             background-size: cover;
         }
         .gridItem-25-cat6 { 
             grid-area: 2 / 11 / 3 / 12; 
-            background-image: url("../../images/subportfolio/insumos-viniles/vinilo-verde-metalizado.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/vinilo-verde-metalizado.jpg");
             background-size: cover;
         }
         .gridItem-26-cat6 { 
             grid-area: 1 / 11 / 2 / 12; 
-            background-image: url("../../images/subportfolio/insumos-viniles/WhatsApp Image 2022-01-10 at 3.05.44 PM.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/WhatsApp Image 2022-01-10 at 3.05.44 PM.jpg");
             background-size: cover;
         }
         .gridItem-27-cat6 { 
             grid-area: 1 / 12 / 2 / 13; 
-            background-image: url("../../images/subportfolio/insumos-viniles/WhatsApp Image 2022-01-10 at 5.01.36 PM.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/WhatsApp Image 2022-01-10 at 5.01.36 PM.jpg");
             background-size: cover;
         }
         .gridItem-28-cat6 { 
             grid-area: 2 / 12 / 3 / 13; 
-            background-image: url("../../images/subportfolio/insumos-viniles/WhatsApp Image 2022-01-10 at 3.42.08 PM.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/WhatsApp Image 2022-01-10 at 3.42.08 PM.jpg");
             background-size: cover;
         }
         .gridItem-29-cat6 { 
             grid-area: 3 / 12 / 4 / 13; 
-            background-image: url("../../images/subportfolio/insumos-viniles/WhatsApp Image 2022-01-10 at 5.51.57 PM.jpg");
+            background-image: url("../../images/subportfolio-desktop/insumos-viniles/WhatsApp Image 2022-01-10 at 5.51.57 PM.jpg");
             background-size: cover;
         } 
 
