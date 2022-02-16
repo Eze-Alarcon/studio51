@@ -235,6 +235,13 @@ main .card {
     width: 150px;
     height: 36px;
     text-decoration: none;
+    color: #000;
+}
+
+.card--content a:hover, 
+.card--content a:active,
+.card--content a:visited {
+    color: #000;
 }
 
 
@@ -496,7 +503,8 @@ footer {
     }
 
     .dropdown-menu li a:hover {
-        background-color: #2fd159;
+        color: #2fd159 !important;
+        background-color: inherit;
     }
 
     .dropdown-item {
@@ -661,7 +669,7 @@ footer {
 
     .card--content a {
         height: 48px;
-        width: 200px;
+        width: 190px;
         margin: 23px 0 0;
         font-weight: 700;
         font-size: var(--btnTextSizeD);
@@ -676,8 +684,6 @@ footer {
         margin: 0;
     }
 
-
-
     .paleta {
         display: flex;
         justify-content: flex-end;
@@ -685,18 +691,19 @@ footer {
         gap: 46px;
     }
 
-    .paleta a {
-        width: 216px;
-        height: 48px;
+    .paleta #paletaColores {
+        width: auto;
+        height: auto;
         color: var(--activeColorFont);
         text-decoration: none;
         font-size: var(--btnTextSizeD);
         font-weight: 700;
-        text-align: center;
+        align-self: center;
     }
 
-    .paleta a:active,
-    .paleta a:hover {
+    .paleta #paletaColores:active,
+    .paleta #paletaColores:hover,
+    .paleta #paletaColores:visited {
         color: var(--activeColorFont);
     }
 
