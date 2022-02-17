@@ -408,12 +408,17 @@ aside {
 }
 .carousel-list {
     list-style: none;
-    animation: slideOutRight 13s infinite alternate ease-in-out;
+    animation: slideOutRight 20s infinite alternate ease-in-out;
+    
+    
 }
 
 .carItem {
-    width: 200px;
-    height: 139px;
+    background-color: #fff;
+    object-fit:contain;
+    padding: 5px 5px;
+    width:200px;
+    height:139px;
 }
 
 @keyframes slideOutRight {
@@ -421,57 +426,97 @@ aside {
         -webkit-transform: translateX(0%);
         transform: translateX(0%);
     }
-    10% {
+    4.5% {
         -webkit-transform: translateX(0%);
         transform: translateX(0%);
     }
-    15% {
-        -webkit-transform: translateX(-45%);
-        transform: translateX(-45%);
+    9% {
+        -webkit-transform: translateX(-59%);
+        transform: translateX(-59%);
     }
-    25% {
-        -webkit-transform: translateX(-45%);
-        transform: translateX(-45%);
+    13.5% {
+        -webkit-transform: translateX(-59%);
+        transform: translateX(-59%);
     }
-    30% {
-        -webkit-transform: translateX(-90%);
-        transform: translateX(-90%);
+    18% {
+        -webkit-transform: translateX(-118%);
+        transform: translateX(-118%);
     }
-    40% {
-        -webkit-transform: translateX(-90%);
-        transform: translateX(-90%);
+    22.5% {
+        -webkit-transform: translateX(-118%);
+        transform: translateX(-118%);
+    }
+    27% {
+        -webkit-transform: translateX(-177%);
+        transform: translateX(-177%);
+    }
+    31.5% {
+        -webkit-transform: translateX(-177%);
+        transform: translateX(-177%);
+    }
+    36% {
+        -webkit-transform: translateX(-236%);
+        transform: translateX(-236%);
+    }
+    40.5% {
+        -webkit-transform: translateX(-236%);
+        transform: translateX(-236%);
     }
     45% {
-        -webkit-transform: translateX(-135%);
-        transform: translateX(-135%);
+        -webkit-transform: translateX(-295%);
+        transform: translateX(-295%);
     }
-    55% {
-        -webkit-transform: translateX(-135%);
-        transform: translateX(-135%);
+    49.5% {
+        -webkit-transform: translateX(-295%);
+        transform: translateX(-295%);
     }
-    60% {
-        -webkit-transform: translateX(-180%);
-        transform: translateX(-180%);
+    54% {
+        -webkit-transform: translateX(-354%);
+        transform: translateX(-354%);
     }
-    70% {
-        -webkit-transform: translateX(-180%);
-        transform: translateX(-180%);
+    58.5% {
+        -webkit-transform: translateX(-354%);
+        transform: translateX(-354%);
     }
-    75% {
-        -webkit-transform: translateX(-225%);
-        transform: translateX(-225%);
+    63% {
+        -webkit-transform: translateX(-413%);
+        transform: translateX(-413%);
     }
-    85% {
-        -webkit-transform: translateX(-225%);
-        transform: translateX(-225%);
+    67.5% {
+        -webkit-transform: translateX(-413%);
+        transform: translateX(-413%);
+    }
+    72% {
+        -webkit-transform: translateX(-472%);
+        transform: translateX(-472%);
+    }
+    76.5% {
+        -webkit-transform: translateX(-472%);
+        transform: translateX(-472%);
+    }
+    81% {
+        -webkit-transform: translateX(-531%);
+        transform: translateX(-531%);
+    }
+    85.5% {
+        -webkit-transform: translateX(-531%);
+        transform: translateX(-531%);
     }
     90% {
-        -webkit-transform: translateX(-270%);
-        transform: translateX(-270%);
+        -webkit-transform: translateX(-590%);
+        transform: translateX(-590%);
+    }
+    94.5% {
+        -webkit-transform: translateX(-590%);
+        transform: translateX(-590%);
+    }
+    99% {
+        -webkit-transform: translateX(-650%);
+        transform: translateX(-650%);
     }
     100% {
-        -webkit-transform: translateX(-270%);
-        transform: translateX(-270%);
+        -webkit-transform: translateX(-650%);
+        transform: translateX(-650%);
     }
 }
 
@@ -1048,33 +1093,63 @@ aside {
     .carItem {
         width: 300px;
         height: 199px;
+        padding: 5px 5px;
     }
 
     @keyframes slideOutRight {
         0% {
-            -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+            -webkit-transform: translateX(2%);
+            transform: translateX(2%);
         }
-        30% {
-            -webkit-transform: translateX(-0%);
-            transform: translateX(-0%);
+        8% {
+            -webkit-transform: translateX(2%);
+            transform: translateX(2%);
         }
 
-        35% {
-            -webkit-transform: translateX(-25%);
-            transform: translateX(-25%);
+        16% {
+            -webkit-transform: translateX(-27%);
+            transform: translateX(-27%);
         }
-        50% {
-            -webkit-transform: translateX(-25%);
-            transform: translateX(-25%);
+        24% {
+            -webkit-transform: translateX(-27%);
+            transform: translateX(-27%);
         }
-        85% {
-            -webkit-transform: translateX(-25%);
-            transform: translateX(-25%);
+        32% {
+            -webkit-transform: translateX(-54%);
+            transform: translateX(-54%);
         }
+        40% {
+            -webkit-transform: translateX(-54%);
+            transform: translateX(-54%);
+        }
+        48% {
+            -webkit-transform: translateX(-81%);
+            transform: translateX(-81%);
+        }
+        56% {
+            -webkit-transform: translateX(-81%);
+            transform: translateX(-81%);
+        }
+        64% {
+            -webkit-transform: translateX(-110%);
+            transform: translateX(-110%);
+        }
+        72% {
+            -webkit-transform: translateX(-110%);
+            transform: translateX(-110%);
+        }
+        80% {
+            -webkit-transform: translateX(-132%);
+            transform: translateX(-132%);
+        }
+        90% {
+            -webkit-transform: translateX(-132%);
+            transform: translateX(-132%);
+        }
+        
         100% {
-            -webkit-transform: translateX(0%);
-            transform: translateX(0%);
+            -webkit-transform: translateX(2%);
+            transform: translateX(2%);
         }
     }
 
